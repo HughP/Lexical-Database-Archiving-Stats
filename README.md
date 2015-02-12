@@ -32,7 +32,7 @@ There are several sets of data outlined as follows:
 * ISO 639-3 data - This data is openly avaible.
 * SIL.org data for GIS locations of languages.
 
-A subset of the data should also be made public and included in this project. However, the data yet needs to be anonymized as much as is possible, to comply with the terms under which it was collected. It is well known in both the linguistics and big-data communities anonomized data can usually be reconstructed to some degree given access and comparison to tertiary data sets. So, even my efforts may not completely obscure retraceable facts.
+A subset of the questionaire data should be made public and included in this project. However, as indicated above, the data yet needs to be anonymized as much as is possible, to comply with the terms under which it was collected. It is well known in both the linguistics and big-data communities anonomized data can usually be reconstructed to some degree given access and comparison to tertiary data sets. So, even my efforts may not completely obscure retraceable facts.
 
 ###Leave a comment in the issue tracker for more information.
 [//]: # (Need to add the links to my YouTube presentations and to my Google form)
