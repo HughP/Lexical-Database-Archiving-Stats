@@ -1,7 +1,7 @@
 # Lexical-Database-Archiving-Stats
 This gihub repository contains scripts, formulas and data used in posters, presentations and papers presented, authored or co-autorhed by Hugh Paterson III on the topic of *User Experince in digital interactions surrounding language archives*.
 
-In chronological order, most recent first these are:
+In chronological order, most recent first, these are:
 
 * Paterson, Hugh J, III. 2015. *Lexical dataset archiving: an assessment of practice*. Poster presented at the 4th International Conference on Language Documentation and Conservation, at the University of Hawai’i Mānoa, Honolulu, HI. February 26 – March 1st. Version 1.0
 
