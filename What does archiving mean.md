@@ -1,41 +1,24 @@
-Engaging Archives
+#Engaging Archives
   
-   In my Lexical Database Archiving Questionnaire I begin to talk about engaging archives to find out which archives have
-   lexical databases and what languages they are describing. During the initial stages of this discussion there are
-   several issues or questions which have come to the surface which deserve an answer. I will do my best to record these
-   thoughts here (please realize that this page will be updated periodically).
-                                      
-Why not look at OLAC?
-                                     
-   Date added:12. December 2013
-   Short answer: We do and have.
-   Show Long Answer
-   This is a great question, I have and I do search OLAC records. I will be posting more about the role OLAC records have
-   had in this project.
-                                      
-   So far I can say:
-    1. Not every organization (archive) submits the same kind of records. - (project records vs. item records)
-    2. When institutions do provide multiple records for the same item (describing different scopes of the object) then
-       these records are not always clearly linked.
-    3. Not all records are tagged the same way within the same organizations. -
-    4. Not all institutions, nor all records from some institutions have the minimum valid metadata for the OLAC 1.1
-       standard.
-    5. Some organizations prevent this level (Lexical Database) of metadata from being distributed by policy - (SIL).
-    6. Sometimes "Toolbox files" when mentioned in records refer to text markups rather than lexical datasets.
-    7. Not all OLAC data providers provide end pages to the items they mention (Hawai'i, TLA, U-de, etc.)
-                                
-What about privacy? When asking archives to divulge their records, sometimes archives can only provide general information,
-not as detailed as you are currently asking for.
+Through my research of lexical database archiving practices, I engaged with linguistis and representatives of archives. Thoses conversations resulted in the following questions and my responses. The questions are outlined below:
+##1. Why not look at OLAC?
+Date added:12. December 2013
+**Short answer**: I do and have.
+**Long Answer**: This is a great question, I have and I do search OLAC records. I will be posting more about the role OLAC records have had in this project. So far I can say:
+* Not every organization (archive) submits the same kind of records. - (project records vs. item records)
+* When institutions do provide multiple records for the same item (describing different scopes of the object) then these records are not always clearly linked to the object record at the archive's repository page.
+* Not all records are tagged the same way within the same organizations.
+* Not all institutions, nor all records from some institutions have the minimum valid metadata for the OLAC 1.1 standard.
+* Some organizations prevent this level (Lexical Database) of metadata from being distributed by policy - (SIL).
+* Sometimes "Toolbox files" when mentioned in records refer to text markups rather than lexical datasets.
+* Not all OLAC data providers provide end pages to the items they mention (Hawai'i, TLA, U-de, etc.)
 
-   Date added: 12. December 2013
-   Short answer: If it is too sensitive to let the world know it exists, then don't share it with us.
-   Show Long Answer
-   This is another great point. It deserves a detailed answer. I have put it on its own page. You can find what I would
-   suggest is a simple taxonomy of archive resources on its own page. The Taxonomy of Archivable Resources and their
-   publicity levels. According to this taxonomy, we are interested in anything that would fit in Grey, Yellow, and Green
-   boxes. We are not interested in anything which would fit in the Red box.
+##2. What about privacy? When asking archives to divulge their records, sometimes archives can only provide general information, not as detailed as I am currently asking for.
+Date added: 12. December 2013
+**Short answer**: If it is too sensitive to let the world know it exists, then don't share it with us.
+**Long Answer**: This is another great point. It deserves a detailed answer. I have put it on its own page. You can find what I would suggest is a simple taxonomy of archive resources on its own page. The Taxonomy of Archivable Resources and their publicity levels. According to this taxonomy, we are interested in anything that would fit in Grey, Yellow, and Green boxes. We are not interested in anything which would fit in the Red box. (see linked content.)
 
-What is 'an Archive'?
+##3.What is 'an Archive'?
    
    Date added: 14. December 2013
    Show Answer
