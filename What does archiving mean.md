@@ -13,22 +13,20 @@ Date added:12. December 2013
 * Sometimes "Toolbox files" when mentioned in records refer to text markups rather than lexical datasets.
 * Not all OLAC data providers provide end pages to the items they mention (Hawai'i, TLA, U-de, etc.)
 
-##2. What about privacy? When asking archives to divulge their records, sometimes archives can only provide general information, not as detailed as I am currently asking for.
+##2. What about privacy? 
+When asking archives to divulge their records, sometimes archives can only provide general information, not as detailed as I am currently asking for.
 Date added: 12. December 2013
 **Short answer**: If it is too sensitive to let the world know it exists, then don't share it with us.
 **Long Answer**: This is another great point. It deserves a detailed answer. I have put it on its own page. You can find what I would suggest is a simple taxonomy of archive resources on its own page. The Taxonomy of Archivable Resources and their publicity levels. According to this taxonomy, we are interested in anything that would fit in Grey, Yellow, and Green boxes. We are not interested in anything which would fit in the Red box. (see linked content.)
 
 ##3.What is 'an Archive'?
-   
-   Date added: 14. December 2013
-   Show Answer
-   This question is asked more than I initially thought it would be. It deserves an answer.
+Date added: 14. December 2013
+This question is asked more than I initially thought it would be. It deserves an answer.
 
-Engaging People
-   
-   The following questions are often asked by individuals but also pertain to institutions as well.
+#Engaging People
+The following questions are often asked by individuals but also pertain to institutions as well.
 
-What is a lexical Resource?
+##What is a lexical Resource?
    
    Date added: 14. December 2013
    Short answer: It varies.
@@ -36,7 +34,7 @@ What is a lexical Resource?
    This is an important question. I don't have all the answers. As I get them, I will modify my page here, which
    discusses this issue.
         
-What is the difference between archiving and back-up?
+##What is the difference between archiving and back-up?
         
    Date added: 13. December 2013
    Short answer: Back-up protects us from data-loss, whereas archiving inducts the data into practices of: data
@@ -84,7 +82,7 @@ What is the difference between archiving and back-up?
    with data loss prevention, Archiving is concerned with preservation of usability (of the data), discoverability,
    provenance (history) and identification (of the data), and then also access to data.
    
-If my Data is in the cloud does that mean it is archived?
+##If my Data is in the cloud does that mean it is archived?
    
    Date added: 13. December 2013
    Short answer: No.
