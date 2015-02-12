@@ -12,20 +12,26 @@ In chronological order, most recent first, these are:
 * Paterson, Hugh J, III and Jeremy Nordmoe. 2013. *Challenges of implementing a tool to extract metadata from linguists: The use case of RAMP*. Poster presented at [3rd International Conference on Language Documentation and Conservation](http://nflrc.hawaii.edu/ICLDC/2013/), at the University of Hawai’i Mānoa, Honolulu, HI. February 28 – March 3rd. Version 1.4 Online at: https://scholarspace.manoa.hawaii.edu/handle/10125/26178 or http://hdl.handle.net/10125/26178
 
 ## Formulas 
-Formulas used in the papers and posters about Lexical Database Archiving
+Formulas used in the papers and posters about Lexical Database Archiving.
 * Hawai'i 2015 [Formulas used in the Hawai'i 2015 presentation](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/Formulas/Formulas.md)
 * Oregon 2014 methodologies are mostly the same as Hawai'i 2015 only the data changes
 * SIL-UND 2013 Methodologies are mostly the same and the data is the same as Hawai'i 2013
 * Hawai'i 2013 not availble yet.
 
 ## Scripts
-Combinations of R scritps and Python scripts
+Combinations of R scritps and Python scripts used to process the data and acomplish the goals of the formulas.
 * Hawai'i 2015 
 * Oregon 2014 methodologies are mostly the same as Hawai'i 2015 only the data changes
 * SIL-UND 2013 Methodologies are mostly the same and the data is the same as Hawai'i 2013
 * Hawai'i 2013 not availble yet. (includes Gephi data and use)
 
 ## Data
+There are several sets of data outlined as follows:
+* Archive specific data from SIL International - This is private data and can not be released, but can be discussed in general terms.
+* Questionaire response data - This must be anonymized before release, as indicated in the terms of collection.
+* ISO 639-3 data - This data is openly avaible.
+* SIL.org data for GIS locations of languages.
+
 A subset of the data should also be made public and included in this project. However, the data yet needs to be anonymized as much as is possible, to comply with the terms under which it was collected. It is well known in both the linguistics and big-data communities anonomized data can usually be reconstructed to some degree given access and comparison to tertiary data sets. So, even my efforts may not completely obscure retraceable facts.
 
 ###Leave a comment in the issue tracker for more information.
