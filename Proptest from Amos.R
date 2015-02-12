@@ -1,4 +1,4 @@
-```{r}
+{r}
 rm(list=ls())
 #Test of equal or given proportions for SIL archived projects
 # SIL_unarchive<-141
@@ -15,7 +15,7 @@ colnames(df)[colnames(df)=="X1"] <- "Archived"
 colnames(df)[colnames(df)=="X2"] <- "Not_Archived"
 
 prop.test(df$Archived, df$Not_Archived, conf.level=0.95, correct=TRUE)
-```
+
 
 # A 2-sample test for equality of proportions tests shows a significant difference between the proportion of archived SIL projects and the proportion of archived non-SIL projects that were surveyed, 
 # The 95% confidence interval estimate of the difference between the proportion of archived SIL projects the proportion of archived non-SIL projects is between 40.4% and 60.4%.
