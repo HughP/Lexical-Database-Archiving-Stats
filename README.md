@@ -13,9 +13,10 @@ In chronological order, most recent first these are:
 Formulas used in the papers and posters about Lexical Database Archiving
 
 ## Scripts
-Combinations of R scritps and python scripts
+Combinations of R scritps and Python scripts
 
 ## Data
-A subset of the data should also be made public and included in this project. However, the data yet needs to be anonymized as much as is possible, to comply with the terms under which it was collected. It is well known in both the linguistics and big-data communities anonomized data can usually be reconstructed to some degree given access and comparison to tertiary data sets. So, even my efforts may not completely obscure retraceable fact.
+A subset of the data should also be made public and included in this project. However, the data yet needs to be anonymized as much as is possible, to comply with the terms under which it was collected. It is well known in both the linguistics and big-data communities anonomized data can usually be reconstructed to some degree given access and comparison to tertiary data sets. So, even my efforts may not completely obscure retraceable facts.
 
 ###Leave a comment in the issue tracker for more information.
+[//]: # (Need to add the links to my YouTube presentations and to my Google form)
