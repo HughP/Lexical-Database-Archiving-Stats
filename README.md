@@ -13,7 +13,7 @@ In chronological order, most recent first these are:
 
 ## Formulas 
 Formulas used in the papers and posters about Lexical Database Archiving
-* Hawaii 2015 [Formulas used in the Hawaii 2015 presentation](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/Formulas/Formulas.md)
+* Hawai'i 2015 [Formulas used in the Hawai'i 2015 presentation](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/Formulas/Formulas.md)
 
 ## Scripts
 Combinations of R scritps and Python scripts
