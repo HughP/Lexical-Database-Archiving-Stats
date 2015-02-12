@@ -22,7 +22,7 @@ Some respondents work in multiple languages and have access to multible lexical 
 Number of lexical database records provided | 1 | 2 | 3 | 4 | 6 | 7 | 10 | 12 | 15 | 21 | 31 | 37 | *105*
  ------------ | ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Number of Respondants | 135 | 18 | 8 | 4 | 1 | 4 | 1 | 1 | 1 | 1 | 1 | 1 | *1*
-```the final column with a count of 105 lexical database records representes the author's own investigation via OLAC and the SIL Language and Culture Archive catalogue.```
+```Note: the final column with a count of 105 lexical database records representes the author's own investigation via OLAC and the SIL Language & Culture Archive catalogue.```
 ##Discussion of the data
 The collectted data is presented in the table below.
 
@@ -44,12 +44,12 @@ Uses cases where a linguist may have already archived lexical data sets, but wer
 * PARADISEC
 * SIL International's Language & Culture Archive
 
-Each archive declined to provide information, citing either: privacy concerns, lack of a detailed indexing procedures on curated archive holdings, or lack of staffing to sufficiently answer the question. All three archives suggested that the best results might be achieved through searches at OLAC - an aggregate records listing of participating language archives. Some 22 records were found via OLAC and included in the results on row four in the table above. A manual tally of some 81 records of lexical databases in the SIL archive’s catalogue, not aggregated to OLAC, were also included. This brings the cumulative token count for lexical data sets to 476 tokens.
+Each archive declined to provide information, citing either: privacy concerns, lack of a detailed indexing procedures on curated archive holdings, or lack of staffing to sufficiently answer the question. All three archives suggested that the best results might be achieved through searches at OLAC - an aggregate records listing of participating language archives. Some 22 records were found via OLAC and included in the results on row four in the table above. A manual tally of some 81 records of lexical databases in the SIL archive’s catalogue, not aggregated to OLAC, were also included. This brings the cumulative token count for lexical data sets to 476 tokens. However, there is cause for concern in the discovered records in the SIL Language & Culture Archive catalogue. The author does have access to this catalogue in ways that the author does not have access to other catalogues. Therefore it is possible that adding these additional tokens would unfairly present the situation as it more generally occurs.
 
 ## Formula for network equivlency hypothesis
 To return to the thesis and the open question on hand, *Can the estimated ratio be applied more generally to all linguistic researchers, or is it subject to network constraints, and therefore limited to only SIL staff?* we need to compare the two sub-populations by their respective responses. This should tell us if there we should suspect similar behaviors, attitudes and practices more generally across the two sub-sections of the population.
 
-To acomplish the comparison statistical analysis I have applied two statsitical tests.
+To acomplish the comparison statistical analysis I have applied two statsitical tests to only the responses recived and not the additional tokens discovered through OLAC and the Language & Culture Archive catalogue.
 
 ###Chi Square
 To do this I used the chi sqhare test in python as described here: http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.chisquare.html
