@@ -14,10 +14,16 @@ In chronological order, most recent first these are:
 ## Formulas 
 Formulas used in the papers and posters about Lexical Database Archiving
 * Hawai'i 2015 [Formulas used in the Hawai'i 2015 presentation](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/Formulas/Formulas.md)
+* Oregon 2014 methodologies are mostly the same as Hawai'i 2015 only the data changes
+* SIL-UND 2013 Methodologies are mostly the same and the data is the same as Hawai'i 2013
 * Hawai'i 2013 not availble yet.
 
 ## Scripts
 Combinations of R scritps and Python scripts
+* Hawai'i 2015 
+* Oregon 2014 methodologies are mostly the same as Hawai'i 2015 only the data changes
+* SIL-UND 2013 Methodologies are mostly the same and the data is the same as Hawai'i 2013
+* Hawai'i 2013 not availble yet. (includes Gephi data and use)
 
 ## Data
 A subset of the data should also be made public and included in this project. However, the data yet needs to be anonymized as much as is possible, to comply with the terms under which it was collected. It is well known in both the linguistics and big-data communities anonomized data can usually be reconstructed to some degree given access and comparison to tertiary data sets. So, even my efforts may not completely obscure retraceable facts.
