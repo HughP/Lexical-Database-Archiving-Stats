@@ -21,10 +21,10 @@ Formulas used in the papers and posters about Lexical Database Archiving.
 
 ## Scripts
 Combinations of R scritps and Python scripts used to process the data and acomplish the goals of the formulas.
-* Hawai'i 2015 
-* Oregon 2014 methodologies are mostly the same as Hawai'i 2015 only the data changes
-* SIL-UND 2013 Methodologies are mostly the same and the data is the same as Hawai'i 2013
-* Hawai'i 2013 not availble yet. (includes Gephi data and use)
+* Hawai'i 2015
+* Oregon 2014  - Methodologies are mostly the same as Hawai'i 2015 only the data changes
+* SIL-UND 2013 - Methodologies are mostly the same and the data is the same as Hawai'i 2013
+* Hawai'i 2013 - Not availble yet. (includes Gephi data and use)
 
 ## Data
 There are several sets of data outlined as follows:
