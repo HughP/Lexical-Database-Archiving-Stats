@@ -1,7 +1,7 @@
 #Data File 1
 
 This is an anonymized list of paticiapnts and their answers. It has three columns:
-* participantID
+*ParticipantID
 * Group
 * Behavior
 
