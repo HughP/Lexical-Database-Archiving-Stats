@@ -21,7 +21,7 @@ Some respondents work in multiple languages and have access to multible lexical 
 
 Number of lexical database records provided | 1 | 2 | 3 | 4 | 6 | 7 | 10 | 12 | 15 | 21 | 31 | 37 | *105*
  ------------ | ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Number of Respondants | 135 | 18 | 8 | 4 | 1 | 4 | 1 | 1 | 1 | 1 | 1 | 1 | *1*
+Number of Respondants | 134 | 19 | 8 | 4 | 1 | 4 | 1 | 1 | 1 | 1 | 1 | 1 | *1*
 ```Note 1: the final column with a count of 105 lexical database records representes the author's own investigation via OLAC and the SIL Language & Culture Archive catalogue.```
 ```Note 2: The difference between the numbers presented here veurses elsewhere (like Paterson 2014) is that these numbers include data collected in late 2014 and early 2015.```
 ##Discussion of the data
@@ -29,7 +29,7 @@ The collectted data is presented in the table below.
 
  | SIL Staff | Other | **Totals**
  ------------ | ------------ | ------------- | -------------
-Respondants | 96 | 80 | 176
+Respondants | 96 | 79 | 175
 Total lexical databses described by responses | 203 | 168 | 371
 Number of lexical datasets from only respondents which were described as 'Archvied' | 63 | 38 | 101
 Additional records found via OLAC | 4 | 18 | 22
