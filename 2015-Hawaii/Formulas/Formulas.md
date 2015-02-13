@@ -1,4 +1,4 @@
-# Formulas
+#Formulas used in the Hawai'i 2015 Poster/Presentation
 
 Stats are not my strong point. I consulted with three friends *A, M, & Z* to look at which formulas to use. Here is what I decided in prose.
 
