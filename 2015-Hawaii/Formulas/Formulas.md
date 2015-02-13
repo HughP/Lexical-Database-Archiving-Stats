@@ -54,6 +54,7 @@ To acomplish the comparison statistical analysis I have applied two statsitical 
 
 ###Chi Square
 To do this I used the chi sqhare test in python as described here: http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.chisquare.html
+This test was run on [Data File 1](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/Anonymized%20Participant%20data%20-%20(about%20data%20file%201).md).
 
 ###Prop Test
 as described here: http://stattrek.com/hypothesis-test/difference-in-proportions.aspx
