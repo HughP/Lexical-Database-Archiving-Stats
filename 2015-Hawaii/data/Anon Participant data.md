@@ -1,10 +1,10 @@
-#Data file 1 
+#Data File 1
 
-This is an anonomized list of paticiapnts and their answers. It has three columns:
+This is an anonymized list of paticiapnts and their answers. It has three columns:
 * participantID
 * Group
 * Behavior
 
-ParticipantID is an anonomized version of the resondant's provided name or resonseID, if no name was provided.
-Group is either SIL = 1, or other = 2
-Behavior is either, the participant said they archived or not, with unknowns counting as not. Where archvied = 1 and not archvied = 2. 
+ParticipantID is an anonymized version of the resondant's provided name or resonseID, if no name was provided.
+**Group** is either *SIL = 1*, or *other = 2*.
+**Behavior** is either, the participant said they archived or not, with unknowns counting as not. Where *archvied = 1* and *not archvied = 2*. 
