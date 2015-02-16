@@ -1,7 +1,7 @@
 #Hawai'i Data Folder
 There are several sets of data outlined as follows:
 
-* **Questionaire response data** - This data is collected via the google form at the following link: http://bit.ly/19QSPMb This must be anonymized before release, as indicated in the terms of collection. One portion of this data is accessible via: [*Data File 1*](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/Anonymized%20Participant%20data%20-%20(about%20data%20file%201).md)
+* **Questionaire response data** - This data is collected via the google form at the following link: http://bit.ly/19QSPMb This must be anonymized before release, as indicated in the terms of collection. One portion of this data is accessible via: [*Data File 1.csv*](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/Anonymized%20Participant%20data%20-%20(about%20data%20file%201).md)
 
 * **ISO 639-3 data** - This data is openly avaible from the [ISO 639-3 Registrar](http://www2.sil.org/iso639-3/default.asp), but is replicated in this repo for consistency across papers and presentations. The orginal documents are presented in a folder titled: [*iso-639-3_Code_Tables_20140320*](https://github.com/HughP/Lexical-Database-Archiving-Stats/tree/master/2015-Hawaii/data/iso-639-3_Code_Tables_20140320). Additionally, a CSV file titled:[*iso-639-3_20140320.csv*](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/iso-639-3_20140320.csv) is in the data folder and is an export of the table used to collate other data.
 
@@ -20,3 +20,5 @@ This is an anonymized list of participants and their answers. It has three colum
 ParticipantID is an anonymized version of the respondent's provided name or responseID, if no name was provided.
 **Group** is either *SIL = 1*, or *other = 2*.
 **Behavior** is either, the participant said they archived or not, with unknowns counting as not. Where *archived = 1* and *not archived = 2*. 
+## iso-639-3_20140320.csv
+This file is an export of the table used to collate other data.
