@@ -53,7 +53,7 @@ To return to the thesis and the open question on hand, *Can the estimated ratio 
 
 There are two approahces one could take. One could say that the null hypothesis is that all linguists should archive. Or we could take the approach that we formulate no hypothesis and we evaluate both groups relative to eachother. I am inclined to not use a hypothesis because I did not set a hypothesis when I collected the data.
 
-To acomplish the comparison, statistical tests of the data were completed. I have applied two statsitical tests to only the responses recived and not the additional tokens discovered through OLAC and the Language & Culture Archive catalogue.
+When completed I should be able to make the following claim: To acomplish the comparison, statistical tests of the data were completed. I have applied two statsitical tests to only the responses recived and not the additional tokens discovered through OLAC and the Language & Culture Archive catalogue.
 
 ###Chi Square
 To do this I used the chi sqhare test in python as described here: http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.chisquare.html
