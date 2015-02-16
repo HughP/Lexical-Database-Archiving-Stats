@@ -24,7 +24,7 @@ ParticipantID is an anonymized version of the respondent's provided name or resp
 This file is an export of the table used to collate other data. It is the ISO 639-3 Data which was current at the time of 2014/03/20.
 
 ##Map plot data
-To plot the items on the map the union of several classes were formed. These unions were then each assigned a value 1-8 as is indicated in the following table.
+To plot the items on the map the union of several classes were formed. These unions were then each assigned a value 1-8 as is indicated in the following table. Due to the nature of the GIS data on hand, and the corespondences between the ISO and the SIL.org datasets, 17 lexical database records, which are identified by ISO language code are not represented on the map. Additionally, Lexical datasets with the code [und] are not plotted.
 
 Numeric | Class
 |----------|-----------|
