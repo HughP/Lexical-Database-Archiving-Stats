@@ -12,7 +12,7 @@ A subset of the questionaire data should be made public and included in this pro
 #Specific files
 ##Data File 1
 
-This is an anonymized list of paticiapnts and their answers. It has three columns:
+This is an anonymized list of participants and their answers. It has three columns:
 * ParticipantID
 * Group
 * Behavior
