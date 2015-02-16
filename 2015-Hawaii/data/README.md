@@ -21,4 +21,4 @@ ParticipantID is an anonymized version of the respondent's provided name or resp
 **Group** is either *SIL = 1*, or *other = 2*.
 **Behavior** is either, the participant said they archived or not, with unknowns counting as not. Where *archived = 1* and *not archived = 2*. 
 ## iso-639-3_20140320.csv
-This file is an export of the table used to collate other data.
+This file is an export of the table used to collate other data. It is the ISO 639-3 Data which was current at the time of 2014/03/20.
