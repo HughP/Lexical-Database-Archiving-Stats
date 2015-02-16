@@ -59,7 +59,9 @@ To acomplish the comparison, statistical tests of the data were completed. I hav
 To do this I used the chi sqhare test in python as described here: http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.chisquare.html
 This test was run on [Data File 1](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/Anonymized%20Participant%20data%20-%20(about%20data%20file%201).md).
 
-My condern with the Chi Square test is that it will not work in a two part population. And rather a Binomial test should be used. http://en.wikipedia.org/wiki/Binomial_test
+My condern with the Chi Square test is that it will not work in a two part population. And rather a Binomial test should be used. 
+* http://en.wikipedia.org/wiki/Binomial_test
+* http://www.graphpad.com/guides/prism/6/statistics/index.htm?stat_binomial.htm
 
 ###Prop Test
 as described here: http://stattrek.com/hypothesis-test/difference-in-proportions.aspx
