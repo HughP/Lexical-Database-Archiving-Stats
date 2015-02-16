@@ -25,6 +25,7 @@ This file is an export of the table used to collate other data. It is the ISO 63
 
 ##Map plot data
 To plot the items on the map the union of several classes were formed. These unions were then each assigned a value 1-8 as is indicated in the following table.
+
 Numeric | Class
 |----------|-----------|
 1|SIL Archived Endangered
