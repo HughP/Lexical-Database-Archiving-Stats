@@ -37,3 +37,5 @@ A subset of the questionaire data should be made public and included in this pro
 
 ###Leave a comment in the issue tracker for more information.
 [//]: # (Need to add the links to my YouTube presentations and to my Google form)
+
+Contents of this repo, when not covereed under other licenses are licensed Creative Commons 4.0 with the By, NC, and SA clauses  CC-BY-NC-SA. Some materials may be licensed in other ways as directly indicated.
