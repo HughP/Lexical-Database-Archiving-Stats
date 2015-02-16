@@ -50,7 +50,7 @@ Index Numeric | Quantitiy | Class
 9| 17| No availble Coordinants
 10|14|Lexical datasets with the code [und]
 **Totals**|**476**|
-Please Note that these numbers do not represent just the respondents, but also include data as found in the catalogues.
+Please Note that these numbers do not represent just the respondents, but also include data as found in the catalogues. Therefore some skew of the data is possible due to over representation of SIL records.
 ##Discussion of the data
 The collectted data is presented in the table below.
 
