@@ -35,7 +35,7 @@ Number of lexical resources records | 21 | *14* | 4 | 3 | 2 | 1
 In terms of gobal coverage a map plotting the languages discussed by respondents shows a global coverage but does show some significant holes in geographical distribution. This may lead to some interesting questions about the adequacy of the types of responenceds. Meaning, that it is conceivable that either there is a social inhibition for reporting these statsitics in some regions of the world, or that the questionnaire was not successfully and evenly distributed (or recived) by researchers of certain families of languages. I speculate that one factor may be that the questionnaire was only available in English, rather than English, French, Russian, and Chinese.
 
 ###Map plot data
-To plot the items on the map the union of several classes were formed. These unions were then each assigned a value 1-8 as is indicated in the following table. Due to the nature of the GIS data on hand, and the corespondences between the ISO and the SIL.org datasets, 17 lexical database records, which are identified by ISO language code are not represented on the map. Additionally, 12 Lexical datasets with the code [und] are not plotted. Non-plotted records are not indicated in the stats in the chart below.
+To plot the items on the map the union of several classes were formed. These unions were then each assigned a value 1-8 as is indicated in the following table. Due to the nature of the GIS data on hand, and the corespondences between the ISO and the SIL.org datasets, 17 lexical database records, which are identified by ISO language code are not represented on the map. Additionally, 14 Lexical datasets with the code [und] are not plotted. Non-plotted records are not indicated in the stats in the chart below.
 
 Index Numeric | Quantitiy | Class
 |----------|-----------|-----------|
@@ -48,9 +48,9 @@ Index Numeric | Quantitiy | Class
 7| 32 |Non-SIL Archived Robust
 8| 94 |Non-SIL Not Archived Robust
 9| 17| No availble Coordinants
-10|12|Lexical datasets with the code [und]
-**Totals**|**474**|
-
+10|14|Lexical datasets with the code [und]
+**Totals**|**476**|
+Please Note that these numbers do not represent just the respondents, but also include data as found in the catalogues.
 ##Discussion of the data
 The collectted data is presented in the table below.
 
