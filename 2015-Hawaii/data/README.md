@@ -9,3 +9,15 @@ There are several sets of data outlined as follows:
 * **SIL.org data for GIS locations of languages**. This data was taken from SIL.org and was merged against ISO 639-3 tables.
 
 A subset of the questionaire data should be made public and included in this project. However, as indicated above, the data yet needs to be anonymized as much as is possible, to comply with the terms under which it was collected. It is well known in both the linguistics and big-data communities anonomized data can usually be reconstructed to some degree given access and comparison to tertiary data sets. So, even my efforts may not completely obscure retraceable facts.
+
+#Specific files
+##Data File 1
+
+This is an anonymized list of paticiapnts and their answers. It has three columns:
+* ParticipantID
+* Group
+* Behavior
+
+ParticipantID is an anonymized version of the respondent's provided name or responseID, if no name was provided.
+**Group** is either *SIL = 1*, or *other = 2*.
+**Behavior** is either, the participant said they archived or not, with unknowns counting as not. Where *archived = 1* and *not archived = 2*. 
