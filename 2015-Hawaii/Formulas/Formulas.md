@@ -25,12 +25,14 @@ Number of Respondants | 134 | 19 | 8 | 4 | 1 | 4 | 1 | 1 | 1 | 1 | 1 | 1 | *1*
 ```Note 1: the final column with a count of 105 lexical database records representes the author's own investigation via OLAC and the SIL Language & Culture Archive catalogue.```
 
 ```Note 2: The difference between the numbers presented here veurses elsewhere (like Paterson 2014) is that these numbers include data collected in late 2014 and early 2015.```
-###Distrobution of Langauges in the responses
+###Distribution of Langauges in the responses
 One way to measure coverage would be to compare the kinds of languages in the responses to the kinds of languages known to exist. To assist in making this comparison, the ISO 639-3 code of the language the lexical resource was describing was requested of the respondent. Where this was not provided, some investigative work was done. If one could easily be found it was added to the data. In cases where one could not easily be found, the ISO 639-3 code [und], used for undetermined, was added. Additionally, some languages had more than one response. In total 390 languages are represented in the dataset by ISO 639-3 codes. Additionally, 14 entries were assigned the code [und]. The chart below may be read from top to bottom as follows, one language had 21 resources, and two languages had four resources each, while 344 languages each were reported to have only one lexical resource.
 
 Number of times this many records corespond to a single ISO 639-3 code | 1 | *1* | 2 | 3 | 40 | 344
  ------------ | ------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
 Number of lexical resources records | 21 | *14* | 4 | 3 | 2 | 1 
+
+In terms of gobal coverage a map plotting the languages discussed by respondents shows a global coverage but does show some significant holes in geographical distribution. This may lead to some interesting questions about the adequacy of the types of responenceds. Meaning, that it is conceivable that either there is a social inhibition for reporting these statsitics in some regions of the world, or that the questionnaire was not successfully and evenly distributed (or recived) by researchers of certain families of languages. I speculate that one factor may be that the questionnaire was only available in English, rather than English, French, Russian, and Chinese.
 
 ##Discussion of the data
 The collectted data is presented in the table below.
