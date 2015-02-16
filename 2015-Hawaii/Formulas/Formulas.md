@@ -51,13 +51,15 @@ Each archive declined to provide information, citing either: *privacy concerns*,
 ## Formula for network equivlency hypothesis
 To return to the thesis and the open question on hand, *Can the estimated ratio be applied more generally to all linguistic researchers, or is it subject to network constraints, and therefore limited to only SIL staff?* We need to compare the two sub-populations by their respective responses. This should tell us if we should suspect similar behaviors, attitudes, and practices more generally across the whole population or if these atributes as culminating in the act of archiving are more prone to occur in one of the two sub-sections of the population.
 
-There are two approahces one could take. One could say that the null hypothesis is that all linguists should archive. Or we could take the approach that we formulate no hypothesis and we evaluate both groups relative to eachother.
+There are two approahces one could take. One could say that the null hypothesis is that all linguists should archive. Or we could take the approach that we formulate no hypothesis and we evaluate both groups relative to eachother. I am inclined to not use a hypothesis because I did not set a hypothesis when I collected the data.
 
 To acomplish the comparison, statistical tests of the data were completed. I have applied two statsitical tests to only the responses recived and not the additional tokens discovered through OLAC and the Language & Culture Archive catalogue.
 
 ###Chi Square
 To do this I used the chi sqhare test in python as described here: http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.chisquare.html
 This test was run on [Data File 1](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/Anonymized%20Participant%20data%20-%20(about%20data%20file%201).md).
+
+My condern with the Chi Square test is that it will not work in a two part population. And rather a Binomial test should be used. http://en.wikipedia.org/wiki/Binomial_test
 
 ###Prop Test
 as described here: http://stattrek.com/hypothesis-test/difference-in-proportions.aspx
