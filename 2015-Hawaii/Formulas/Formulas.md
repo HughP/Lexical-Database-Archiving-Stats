@@ -34,6 +34,23 @@ Number of lexical resources records | 21 | *14* | 4 | 3 | 2 | 1
 
 In terms of gobal coverage a map plotting the languages discussed by respondents shows a global coverage but does show some significant holes in geographical distribution. This may lead to some interesting questions about the adequacy of the types of responenceds. Meaning, that it is conceivable that either there is a social inhibition for reporting these statsitics in some regions of the world, or that the questionnaire was not successfully and evenly distributed (or recived) by researchers of certain families of languages. I speculate that one factor may be that the questionnaire was only available in English, rather than English, French, Russian, and Chinese.
 
+###Map plot data
+To plot the items on the map the union of several classes were formed. These unions were then each assigned a value 1-8 as is indicated in the following table. Due to the nature of the GIS data on hand, and the corespondences between the ISO and the SIL.org datasets, 17 lexical database records, which are identified by ISO language code are not represented on the map. Additionally, 12 Lexical datasets with the code [und] are not plotted. Non-plotted records are not indicated in the stats in the chart below.
+
+Index Numeric | Quantitiy | Class
+|----------|-----------|-----------|
+1| 22 |SIL Archived Endangered
+2| 24 |SIL not archived Endangered
+3| 14 |Non-SIL Archived Endangered
+4| 23 |Non-SIL Not Archived Endangered
+5| 123 |SIL Archived Robust
+6| 113 |SIL not archived Robust
+7| 32 |Non-SIL Archived Robust
+8| 94 |Non-SIL Not Archived Robust
+9| 17| No availble Coordinants
+10|12|Lexical datasets with the code [und]
+**Totals**|**474**|
+
 ##Discussion of the data
 The collectted data is presented in the table below.
 
