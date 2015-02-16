@@ -1,6 +1,5 @@
-#Data
+#Hawai'i Data Folder
 There are several sets of data outlined as follows:
-* **Archive specific data from SIL International** - This is corporation specific and confidential data and can not be released, but can be discussed in general terms. This data is only used in Paterson & Nordmoe.
 
 * **Questionaire response data** - This data is collected via the google form at the following link: http://bit.ly/19QSPMb This must be anonymized before release, as indicated in the terms of collection. One portion of this data is accessible via: [*Data File 1*](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/Anonymized%20Participant%20data%20-%20(about%20data%20file%201).md)
 
