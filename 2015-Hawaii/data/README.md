@@ -22,17 +22,3 @@ ParticipantID is an anonymized version of the respondent's provided name or resp
 **Behavior** is either, the participant said they archived or not, with unknowns counting as not. Where *archived = 1* and *not archived = 2*. 
 ## iso-639-3_20140320.csv
 This file is an export of the table used to collate other data. It is the ISO 639-3 Data which was current at the time of 2014/03/20.
-
-##Map plot data
-To plot the items on the map the union of several classes were formed. These unions were then each assigned a value 1-8 as is indicated in the following table. Due to the nature of the GIS data on hand, and the corespondences between the ISO and the SIL.org datasets, 17 lexical database records, which are identified by ISO language code are not represented on the map. Additionally, 12 Lexical datasets with the code [und] are not plotted. Non-plotted records are not indicated in the stats in the chart below.
-
-Index Numeric | Quantitiy | Class
-|----------|-----------|-----------|
-1| 22 |SIL Archived Endangered
-2| 24 |SIL not archived Endangered
-3| 14 |Non-SIL Archived Endangered
-4| 23 |Non-SIL Not Archived Endangered
-5| 123 |SIL Archived Robust
-6| 113 |SIL not archived Robust
-7| 32 |Non-SIL Archived Robust
-8| 94 |Non-SIL Not Archived Robust
