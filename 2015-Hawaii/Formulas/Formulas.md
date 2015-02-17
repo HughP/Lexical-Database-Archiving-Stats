@@ -42,7 +42,7 @@ To plot the items on the map the union of several classes were formed. These uni
 Index Numeric | **Quantitiy Total** | Quantity Responses | Class | Color Key
 |----------|-----------|-----------|-----------|-----------|
 1| 22 | 6 |SIL Archived Endangered | Blue Circle
-2| 24 | 24 |SIL not archived Endangered | Blue Diamond
+2| 24 | 24 |SIL Not-archived Endangered | Blue Diamond
 3| 14 | 7 |Non-SIL Archived Endangered | Green Circle
 4| 23 | 23 |Non-SIL Not Archived Endangered | Green Diamond
 5| 123 | 56 |SIL Archived Robust | 
