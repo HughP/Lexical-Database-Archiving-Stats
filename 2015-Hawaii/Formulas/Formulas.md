@@ -65,7 +65,7 @@ Additional records found via OLAC | 4 | 18 | 22
 Additional records found via SIL Catalogue | 81 | 2 | 83
 New total number of lexical databases found | 288 | 188 | 476
 
-In the virst row we have the total number of respondants. In the second row we have the totals of the numbers of lexial databases each sub-segment of the total population of respondents provided data for, or about. The third row of the table describes how many of the total number of lexical databases mentioned were claimed to be *archived*.
+In the first row we have the total number of respondants. In the second row we have the totals of the numbers of lexial databases each sub-segment of the total population of respondents provided data for, or about. The third row of the table describes how many of the total number of lexical databases mentioned were claimed to be *archived*.
 
 However, a secondary question quickly arises. While the questionnaire focuses on asking current (and living) respondents if they have archived, the questionnaire fails to capture an assement of what has already been successfully archived, but is not accounted for in responses. I phrase the question as the following: *What if there is a lexical database in an archive but no-one responded about it?*
 
