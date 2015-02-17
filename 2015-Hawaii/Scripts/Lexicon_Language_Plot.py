@@ -38,9 +38,9 @@ def get_marker_color(union_class):
 #3	14	7	Non-SIL Archived Endangered --- Green circles
 #4	23	23	Non-SIL Not Archived Endangered --- Green Diamonds
 #5	123	56	SIL Archived Robust --- Yellow Circles
-#6	113	112	SIL not archived Robust --- Yellow Diamond
-#7	32	19	Non-SIL Archived Robust --- Red
-#8	94	94	Non-SIL Not Archived Robust
+#6	113	112	SIL not archived Robust --- Yellow Square
+#7	32	19	Non-SIL Archived Robust --- Red Circle
+#8	94	94	Non-SIL Not Archived Robust --- Red Octagon
 #9	17	16	No availble Coordinants
 #10	14	14	Lexical datasets with the code [und]
 #Totals	476	371	
@@ -57,16 +57,16 @@ def get_marker_color(union_class):
     elif union_class == 5:
         return ('yo')
     elif union_class == 6:
-        return ('yD')
+        return ('ys')
     elif union_class == 7:
         return ('ro')
     elif union_class == 8:
-        return ('rD')
+        return ('r8')
     else:
         return ('rD')
  
 map = Basemap(projection='robin', resolution = 'h', area_thresh = 10.0,
-              lat_0=0, lon_0=90)
+              lat_0=0, lon_0=-90)
 #map.drawcoastlines()
 map.drawcountries()
 #map.drawmapboundary(fill_color='aqua')
@@ -78,14 +78,14 @@ map.drawmapboundary()
 map.drawmeridians(np.arange(0, 360, 30))
 map.drawparallels(np.arange(-90, 90, 30))
  
-min_marker_size = 3
+min_marker_size = 7
 for lon, lat, union in zip(lons, lats, union_class):
     x,y = map(lon, lat)
     msize = min_marker_size
     marker_string = get_marker_color(union)
     map.plot(x, y, marker_string, markersize=msize)
     
-title_string = "Languages Mentioned in Responses\n"
+title_string = "Languages Mentioned in Responses\n SIL Archived Endangered --- Blue circles\n\n SIL not archived Endangered --- Blue Diamond\n Non-SIL Archived Endangered --- Green circles\n Non-SIL Not Archived Endangered --- Green Diamonds\n SIL Archived Robust --- Yellow Circles\n SIL not archived Robust --- Yellow Square\n Non-SIL Archived Robust --- Red Circle\n Non-SIL Not Archived Robust --- Red Octagon\n"
 #title_string += "%s through %s" % (timestrings[-1][:10], timestrings[0][:10])
 plt.title(title_string)
  
