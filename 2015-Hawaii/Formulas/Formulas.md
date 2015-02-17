@@ -39,20 +39,20 @@ In terms of gobal coverage a map plotting the languages discussed by respondents
 ![Language-Lexicon Plot](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/Formulas/Language_Plot.png)
 To plot the items on the map the union of several classes were formed. These unions were then each assigned a value 1-10 as is indicated in the following table. Due to the nature of the GIS data on hand, and the corespondences between the ISO and the SIL.org datasets, 17 lexical database records, which are identified by ISO language code are not represented on the map. Additionally, 14 Lexical datasets with the code [und] are not plotted. These classes are formed in the following way. The SIL.org data classifies languages as either Robust or Endangered. The Endangered languages are classified 6b-9 on the EGIDS scale as of the 17th edition of the Ethnologue. Robust languages are classified as 0-6a on the EGIDS scale as of the 17th edition of the Ethnologue. The SIL staff / Other distinction made in the data was maintained in the creaction of classes. Therefore 8 classes were created with modulations for the factors of Archvived/Not Archived, SIL Staff/Other, Endangered Language/Robust Language.
 
-Index Numeric | **Quantitiy Total** | Quantity Responses | Class | Color Key
+Index Numeric | **Total Quantitiy of records** | Quantity of Responses | Class | Color Key
 |----------|-----------|-----------|-----------|-----------|
 1| 22 | 6 |SIL Staff Archived Endangered | Blue Circle
 2| 24 | 24 |SIL Staff Not-archived Endangered | Blue Diamond
 3| 14 | 7 |Other Archived Endangered | Green Circle
 4| 23 | 23 |Other Not-archived Endangered | Green Diamond
-5| 123 | 56 |SIL Staff Archived Robust | 
-6| 113 | 112 |SIL Staff Not-archived Robust | 
-7| 32 | 19 |Other Archived Robust | 
-8| 94 | 94 |Other Not-archived Robust | 
+5| 123 | 56 |SIL Staff Archived Robust | Yellow Circle
+6| 113 | 112 |SIL Staff Not-archived Robust | Yellow Diamond
+7| 32 | 19 |Other Archived Robust | Red Circle
+8| 94 | 94 |Other Not-archived Robust | Red Diamond
 9| 17| 16 |No availble Coordinants | 
 10|14| 14 |Lexical datasets with the code [und]| 
 **Totals**|**476**|371| |
-Please Note that these numbers do not represent just the respondents, but also include data as found in the catalogues. Therefore some skew of the data is possible due to over representation of SIL records.
+
 ##Discussion of the data
 The collectted data is presented in the table below.
 
