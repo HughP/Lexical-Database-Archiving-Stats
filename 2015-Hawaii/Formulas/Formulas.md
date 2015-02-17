@@ -41,14 +41,14 @@ To plot the items on the map the union of several classes were formed. These uni
 
 Index Numeric | **Quantitiy Total** | Quantity Responses | Class | Color Key
 |----------|-----------|-----------|-----------|-----------|
-1| 22 | 6 |SIL Archived Endangered | Blue Circle
-2| 24 | 24 |SIL Not-archived Endangered | Blue Diamond
-3| 14 | 7 |Non-SIL Archived Endangered | Green Circle
-4| 23 | 23 |Non-SIL Not Archived Endangered | Green Diamond
-5| 123 | 56 |SIL Archived Robust | 
-6| 113 | 112 |SIL not archived Robust | 
-7| 32 | 19 |Non-SIL Archived Robust | 
-8| 94 | 94 |Non-SIL Not Archived Robust | 
+1| 22 | 6 |SIL Staff Archived Endangered | Blue Circle
+2| 24 | 24 |SIL Staff Not-archived Endangered | Blue Diamond
+3| 14 | 7 |Other Archived Endangered | Green Circle
+4| 23 | 23 |Other Not-archived Endangered | Green Diamond
+5| 123 | 56 |SIL Staff Archived Robust | 
+6| 113 | 112 |SIL Staff Not-archived Robust | 
+7| 32 | 19 |Other Archived Robust | 
+8| 94 | 94 |Other Not-archived Robust | 
 9| 17| 16 |No availble Coordinants | 
 10|14| 14 |Lexical datasets with the code [und]| 
 **Totals**|**476**|371| |
