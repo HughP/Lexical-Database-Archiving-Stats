@@ -37,19 +37,19 @@ In terms of gobal coverage a map plotting the languages discussed by respondents
 ###Map plot data
 To plot the items on the map the union of several classes were formed. These unions were then each assigned a value 1-8 as is indicated in the following table. Due to the nature of the GIS data on hand, and the corespondences between the ISO and the SIL.org datasets, 17 lexical database records, which are identified by ISO language code are not represented on the map. Additionally, 14 Lexical datasets with the code [und] are not plotted. Non-plotted records are not indicated in the stats in the chart below.
 
-Index Numeric | Quantitiy Total| Quantity Responses | Class
-|----------|-----------|-----------|
+Index Numeric | **Quantitiy Total** | Quantity Responses | Class
+|----------|-----------|-----------|-----------|
 1| 22 | 6 |SIL Archived Endangered
 2| 24 | 24 |SIL not archived Endangered
 3| 14 | 7 |Non-SIL Archived Endangered
 4| 23 | 23 |Non-SIL Not Archived Endangered
-5| 123 | 57 |SIL Archived Robust
+5| 123 | 56 |SIL Archived Robust
 6| 113 | 112 |SIL not archived Robust
 7| 32 | 19 |Non-SIL Archived Robust
 8| 94 | 94 |Non-SIL Not Archived Robust
 9| 17| 16 |No availble Coordinants
 10|14| 14 |Lexical datasets with the code [und]
-**Totals**|**476**|
+**Totals**|**476**|371|
 Please Note that these numbers do not represent just the respondents, but also include data as found in the catalogues. Therefore some skew of the data is possible due to over representation of SIL records.
 ##Discussion of the data
 The collectted data is presented in the table below.
