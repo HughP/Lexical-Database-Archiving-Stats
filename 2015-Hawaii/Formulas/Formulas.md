@@ -30,7 +30,7 @@ Number of times this many records corespond to a single ISO 639-3 code | 1 | *1*
  ------------ | ------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
 Number of lexical resources records | 21 | *14* | 4 | 3 | 2 | 1 
 
-### Geographical distrobution of languages in responses
+### Geographical distribution of languages in responses
 
 In terms of gobal coverage a map plotting the languages discussed by respondents shows a global coverage but does show some significant holes in geographical distribution. This may lead to some interesting questions about the adequacy of the types of responences. Meaning, that it is conceivable that either there is a social inhibition for reporting these statsitics in some regions of the world, or that the questionnaire was not successfully and evenly distributed (or recived) by researchers of certain families of languages. I speculate that one factor may be that the questionnaire was only available in English, rather than English, French, Russian, and Chinese.
 
