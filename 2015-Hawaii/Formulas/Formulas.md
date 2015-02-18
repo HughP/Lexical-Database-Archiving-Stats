@@ -1,7 +1,5 @@
 #Formulas used in the Hawai'i 2015 Poster/Presentation
 
-Stats are not my strong point. I consulted with three friends *A, M, & Z* to look at which formulas to use. Here is what I decided in prose.
-
 ##The problem Statement
 Paterson and Nordmoe (2013) made the following claim:
 * SIL has nearly 80 years of history working with minority language communities. 
@@ -94,3 +92,5 @@ My condern with the Chi Square test is that it will not work in a two part popul
 
 ###Prop Test
 as described here: http://stattrek.com/hypothesis-test/difference-in-proportions.aspx
+##Credits
+Stats are not my strong point. I consulted with three friends *A, M, & Z* to look at which formulas to use.
