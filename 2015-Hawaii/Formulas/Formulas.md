@@ -23,7 +23,7 @@ Number of Respondants | 134 | 19 | 8 | 4 | 1 | 4 | 1 | 1 | 1 | 1 | 1 | 1 | *1*
 ```Note 1: the final column with a count of 105 lexical database records representes the author's own investigation via OLAC and the SIL Language & Culture Archive catalogue.```
 
 ```Note 2: The difference between the numbers presented here veurses elsewhere (like Paterson 2014) is that these numbers include data collected in late 2014 and early 2015.```
-###Distribution of Langauges in the responses
+###Distribution of langauges in the responses
 One way to measure coverage would be to compare the kinds of languages in the responses to the kinds of languages known to exist. To assist in making this comparison, the ISO 639-3 code of the language the lexical resource was describing was requested of the respondent. Where this was not provided, some investigative work was done. If one could easily be found it was added to the data. In cases where one could not easily be found, the ISO 639-3 code [und], used for undetermined, was added. Additionally, some languages had more than one response. In total 390 languages are represented in the dataset by ISO 639-3 codes. Additionally, 14 entries were assigned the code [und]. The chart below may be read from top to bottom as follows, one language had 21 resources, and two languages had four resources each, while 344 languages each were reported to have only one lexical resource.
 
 Number of times this many records corespond to a single ISO 639-3 code | 1 | *1* | 2 | 3 | 40 | 344
