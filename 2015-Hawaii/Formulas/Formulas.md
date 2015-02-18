@@ -82,15 +82,23 @@ There are two approahces one could take. One could say that the null hypothesis 
 
 When completed I should be able to make the following claim: To acomplish the comparison, statistical tests of the data were completed. I have applied two statsitical tests to only the responses recived and not the additional tokens discovered through OLAC and the Language & Culture Archive catalogue.
 
+Two options are = 1. what is the likelyhood that the groups are different and 2. what is the liklyhood that the groups are the same... Proving that groups are the same is harder to do. But proving that groups are different is easier. Fisher's exact test 2x2 tables is preey easy math. and will give a differens test. I can show straight data and percentages when I want to show comparisons between the two groups.
+
+
 ###Chi Square
 To do this I used the chi sqhare test in python as described here: http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.chisquare.html
 This test was run on [Data File 1](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/Anonymized%20Participant%20data%20-%20(about%20data%20file%201).md).
 
-My condern with the Chi Square test is that it will not work in a two part population. And rather a Binomial test should be used. 
+My condern with the Chi Square test is that it will not work in a two part population. And rather a Binomial test should be used.
+
+Binomial Test - Crititally are they the same.
+
 * http://en.wikipedia.org/wiki/Binomial_test
 * http://www.graphpad.com/guides/prism/6/statistics/index.htm?stat_binomial.htm
 
 ###Prop Test
 as described here: http://stattrek.com/hypothesis-test/difference-in-proportions.aspx
+
+
 ##Credits
 Stats are not my strong point. I consulted with three friends *A, M, & Z* to look at which formulas to use.
