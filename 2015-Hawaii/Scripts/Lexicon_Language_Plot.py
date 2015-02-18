@@ -45,8 +45,7 @@ def get_marker_color(union_class):
 #10	14	14	Lexical datasets with the code [und]
 #Totals	476	371	
 #Please Note that these numbers do not represent just the respondents, but also include data as found in the catalogues. Therefore some skew of the data is possible due to over representation of SIL records.
-    # Returns Blue circles for SIL responses (Class1), Green circles for non-SIL responses(Class3), Class 2 is Blue Diamond, Class 4 is Green Diamonds
-    # numbers are not called in numeric order because it is manually adusted to fit the most voluminous classes first.
+    # Returns Blue circles for SIL responses (Class1), Green circles for non-SIL responses(Class3), Class 2 is Blue Diamond, Class 4 is Green Diamonds 
     if union_class == 6:
         return ('yo')
     elif union_class == 5:
