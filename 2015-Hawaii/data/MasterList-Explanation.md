@@ -48,18 +48,18 @@ These are the columns and the reasons for their existence. The source column ind
 * **Participant ID**
  * _Source:_ Computed
  * _Field type:_ String
- * _WordPress Field Name:_ -
- * _Explanation:_ This is a computed field so that participant quantities can be shared.
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ This is a computed field so that participant quantities can be anonymously shared.
 * **SIL Project**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
  * _Field type:_ String
  * _WordPress Field Name:_ lxdb_sil_project
  * _Explanation:_ The questionnaire respondents are asked if this is an SIL project. This is an optionally answered question. Responses via email are curated to fit.
 * **Group**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
- * _Explanation:_ Because the 'SIL Project' question is an open field is an open text field, a variety of answers are possible. This can include more than "Yes or No". This field becomes a binary representation of the 'SIL Project' field with a numerical value of 1 for SIL and an numerical value of 2 for other answers.
+ * _Source:_ Computed
+ * _Field type:_ Interger
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ Because the 'SIL Project' question is an open field is an open text field, a variety of answers are possible. This can include more than "Yes or No". This field becomes a binary representation of the 'SIL Project' field with a numerical value of 1 for SIL and an numerical value of 2 for other answers. This field is computed in the following way: if the field 'SIL Project' as a string is "SIL" then a value of '1' is given, else 2.
 * **Did Hugh have to make a categorical decision based on the provided data, and what was that response?**
  * _Source:_ -
  * _Field type:_ -
@@ -105,11 +105,7 @@ These are the columns and the reasons for their existence. The source column ind
  * _Field type:_ -
  * _WordPress Field Name:_ -
  * _Explanation:_
-* **Items which should be in REAP found/not-
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
- * _Explanation:_found**
+* **Items which should be in REAP found/not-found**
  * _Source:_ -
  * _Field type:_ -
  * _WordPress Field Name:_ -
