@@ -50,10 +50,10 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ lxdb_email_address_of_data_provider
  * _Explanation:_ This is the email address of the record creator. It is personal information and should not be in the public version of the dataset. It was voluntarily provided, and optional in the web form. It was automatically provided when someone replied via email.
 * **Lexical Database creator or contact person**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified values
  * _Field type:_ String
  * _WordPress Field Name:_ None.
- * _Explanation:_ This is the name of the individual who created the lexical database. It was voluntarily provided, and optional in the web form, from self reporters, it was in the archive record for those records found in archives or OLAC. It was automatically provided when someone replied via email.
+ * _Explanation:_ This is the name of the individual who created the lexical database. It was voluntarily provided in many cases, and via an optional field in the web form, from self reporters. It was in the archive record for those records found in archives or OLAC, and added at researcher discretion. It was automatically provided when someone replied via email. This field is needed because the person who created the database is not always the person who created the lexical resource.
 * **Lexical Database record Provider**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
  * _Field type:_ String
@@ -92,8 +92,8 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
 * **Stop Class1**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **The Institutional Archive at which the Lexical Database is allegedly archived**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
  * _Field type:_ String
@@ -102,63 +102,63 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
 * **TAPS Archive**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ <-- **NEED ANSWER**-->
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class2**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
+ * _WordPress Field Name:_ None.
  * _Explanation:_
 * **Was there anything found at the Archive?**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ <-- **NEED ANSWER**-->
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class 3**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **Items which should be in REAP found/not-found**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ <-- **NEED ANSWER**-->
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **Was the thing a Lexical Database?**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ <-- **NEED ANSWER**-->
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class 4**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **Was the archive entry description clear that this was a lexical database/dataset?**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ <-- **NEED ANSWER**-->
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class 5**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **Thinks they have archived but have not**
  * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ <-- **NEED ANSWER**-->
- * _WordPress Field Name:_ <-- **NEED ANSWER**-->
- * _Explanation:_
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ <-- **NEED ANSWER**-->
 * **Anything we should know?**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
- * _Field type:_ <-- **NEED ANSWER**-->
- * _WordPress Field Name:_ String
- * _Explanation:_
+ * _Field type:_ String
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ This is an open field with sometimes personally identifying data. It is a plethora of information, but inconsistent across the total records. A lot of UX data comes from this column.
 * **If you are using FLEx or Toolbox have you produced a Print publication?**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
  * _Field type:_ String
  * _WordPress Field Name:_ None.
- * _Explanation:_
+ * _Explanation:_ This field contains answers about publication from the responses. Sometimes it is a simple 'Yes'/'No'; other times the contents of the field is more elaborate.
 * **Number of entries**
  * _Source:_ Researcher classified values
  * _Field type:_ String
