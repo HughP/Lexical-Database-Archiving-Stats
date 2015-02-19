@@ -1,6 +1,7 @@
 #Data grid items and definitions
 These are the columns and the reasons for their existence.
-* **ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:** - _Source:_ - _Field type:_ - _Explanation:_ This is the ISO 639-3 code of the ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:
+* **ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:** 
+ * - _Source:_ - _Field type:_ - _Explanation:_ This is the ISO 639-3 code of the ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:
 * **Variety Name or language name** - _Source:_ - _Field type:_ - _Explanation:_ This is the varietal name, or sub-language name. The language name is the one from the ISO 639-3 table. However, this line is also needed because people keep lexicons of dialects or speech varieties which have not been given their own ISO 639-3 code.
 * **Timestamp** - _Source:_ - _Field type:_ - _Explanation:_ This is the time and date that the response was received.
 * **Application** - _Source:_ - _Field type:_ - _Explanation:_ This is the application name of the lexical database solution. It is assumed that the answers in this list will form a basic taxonomy of the applications being used for creating the Lexical databases. In the multiple choice options several were suggested: FLEx, Toolbox, 
