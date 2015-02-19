@@ -1,5 +1,13 @@
 #Data grid items and definitions
-These are the columns and the reasons for their existence. The source column indicates where the data in the dataset came from. The Field type indicates which python datatype is in the field. The WordPress Field Name is a field name that is parseable by WordPress so that I can look at the data in an interactive environment with mashup layers. The explanation denotes why the field is necessary or how it came into being.
+These are the columns and the reasons for their existence / how they are used. The **Source** column indicates where the data in the dataset came from. There are currently 5 possible values here: 
+1. Responses (direct content from email and questionnaires)
+2. ISO 639-3 tables
+3. SIL.org GIS data
+4. Computed values based on responses
+5. Researcher classified values based on qualitative responses from the questionnaires.
+The **Field type** indicates which Python datatype is in the field. The **WordPress Field Name** is a field name that is parseable by WordPress so that I can look at the data in an interactive environment with mashup layers. The **Explanation** denotes why the field is necessary or how it came into being.
+
+
 * **ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:**
  * _Source:_ This data comes from the questionnaire responses (or in this case also archive records).
  * _Field type:_ String
@@ -72,9 +80,9 @@ These are the columns and the reasons for their existence. The source column ind
  * _Explanation:_
 * **Behavior**
  * _Source:_ -
- * _Field type:_ -
+ * _Field type:_ Interger
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ This field is a binary summary of the responses. That is, the field contains a '1' when the respondent says they archived and a '2' when the respondent says they did not archive. This is done before any analysis about the archive solution the respondent says they interact with. It is binary for sorting purposes. With the use of Python this field may be unnecessary.
 * **Stop Class1**
  * _Source:_ -
  * _Field type:_ -
