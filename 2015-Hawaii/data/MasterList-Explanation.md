@@ -1,10 +1,10 @@
 #Data grid items and definitions
 These are the columns and the reasons for their existence / how they are used. The **Source** column indicates where the data in the dataset came from. There are currently 5 possible values here: 
-1. Responses (direct content from email and questionnaires)
-2. ISO 639-3 tables
-3. SIL.org GIS data
-4. Computed values based on responses
-5. Researcher classified values based on qualitative responses from the questionnaires.
+ 1. Responses (direct content from email and questionnaires)
+ 2. ISO 639-3 tables
+ 3. SIL.org GIS data
+ 4. Computed values based on responses
+ 5. Researcher classified values based on qualitative responses from the questionnaires.
 The **Field type** indicates which Python datatype is in the field. The **WordPress Field Name** is a field name that is parseable by WordPress so that I can look at the data in an interactive environment with mashup layers. The **Explanation** denotes why the field is necessary or how it came into being.
 
 
