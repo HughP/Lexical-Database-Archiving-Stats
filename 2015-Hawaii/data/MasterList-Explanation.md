@@ -238,22 +238,22 @@ These are the columns and the reasons for their existence. The source column ind
  * _Source:_ SIL.org GIS Data
  * _Field type:_ String
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a unique leaflet ID for each dot/datapoint for the production of dots on a mashup map.
 * **Radius**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ String
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a radius for the production of dots on a mashup map.
 * **Color**
  * _Source:_ SIL.org GIS Data
- * _Field type:_ -
+ * _Field type:_ String
  * _WordPress Field Name:_ -
- * _Explanation:_ Color of the circle.
+ * _Explanation:_ Color of the circle. This field is unused. It is residue from the data merge with SIL.org data. Their script requires a an HTML color for the production of dots on a mashup map.
 * **Ethnologue Status**
  * _Source:_ SIL.org GIS Data
- * _Field type:_ -
+ * _Field type:_ String
  * _WordPress Field Name:_ ethnologue_17_status
- * _Explanation:_
+ * _Explanation:_ This field is residue from the data merge with SIL.org data. It should be replaced with the EGIDS value of each language. The 'Union Status Key' computes based on the value of this field. This field has two values, *Robust* and *Endangered*. SIL.org claimed at the time the data was collected that the data was sourced from the Ethnologue 17th edition. The *Endangered languages* are languages classified in the Ethnologue with an EGIDS value of 6b-9, while *Robust languages* are classified as 0-6a on the EGIDS scale.
 * **Union Status Key**
  * _Source:_ Computed
  * _Field type:_ -
@@ -263,19 +263,19 @@ These are the columns and the reasons for their existence. The source column ind
  * _Source:_ SIL.org GIS Data
  * _Field type:_ String
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires an HTML color for the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **Weight**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ -
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a weight classification in the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **Opacity**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ -
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a opacity value in the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **FillOpacity**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ -
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a fill opacity classification in the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
