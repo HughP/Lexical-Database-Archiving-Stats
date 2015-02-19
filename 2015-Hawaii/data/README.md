@@ -7,9 +7,12 @@ There are several sets of data outlined as follows:
 
 * **SIL.org data for GIS locations of languages**. This data was taken from SIL.org and was merged against ISO 639-3 tables.
 
-A subset of the questionaire data should be made public and included in this project. However, as indicated above, the data yet needs to be anonymized as much as is possible, to comply with the terms under which it was collected. It is well known in both the linguistics and big-data communities anonomized data can usually be reconstructed to some degree given access and comparison to tertiary data sets. So, even my efforts may not completely obscure retraceable facts.
+A subset of the questionnaire data should be made public and included in this project. However, as indicated above, the data yet needs to be anonymized as much as is possible, to comply with the terms under which it was collected. It is well known in both the linguistics and big-data communities anonomized data can usually be reconstructed to some degree given access and comparison to tertiary data sets. So, even my efforts may not completely obscure retraceable facts.
 
-#Specific files
+#Specific files used in the projet
+##MasterDataFile
+This datafile is not currently publicly avaible due to confidentiality constraints.
+
 ##Data File 1.csv
 
 This is an anonymized list of participants and their answers. It has three columns:
