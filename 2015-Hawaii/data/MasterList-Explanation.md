@@ -272,7 +272,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Source:_ Computed
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
- * _Explanation:_ This field is a computed integer index of values from three columns creating 10 sets of data. This data is then used to create and plot the points. 
+ * _Explanation:_ This field is a computed integer index of values from three columns creating 10 sets of data. This data is then used to create and plot the points on the global map. 
  1 = SIL Staff Archived Endangered, 2 = SIL Staff Not-archived Endangered, 3 = Other Archived Endangered, 4 = Other Not-archived Endangered, 5 = SIL Staff Archived Robust, 6 = SIL Staff Not-archived Robust, 7 = Other Archived Robust, 8 = Other Not-archived Robust, 9 = No available Coordinates, 10 = Lexical datasets with the code [und].
 * **Hex Fill Color**
  * _Source:_ SIL.org GIS Data
