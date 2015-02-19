@@ -48,7 +48,7 @@ Index Numeric | **Total Quantitiy of records** | Quantity of Responses | Class |
 6| 113 | 112 |SIL Staff Not-archived Robust | Yellow Diamond
 7| 32 | 19 |Other Archived Robust | Red Circle
 8| 94 | 94 |Other Not-archived Robust | Red Diamond
-9| 17| 16 |No availble Coordinants | 
+9| 17| 16 |No available Coordinates | 
 10|14| 14 |Lexical datasets with the code [und]| 
 **Totals**|**476**|371| |
 
