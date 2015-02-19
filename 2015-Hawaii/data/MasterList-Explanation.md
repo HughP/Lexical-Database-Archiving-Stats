@@ -1,5 +1,6 @@
 #Data grid items and definitions
-These are the columns and the reasons for their existence / how they are used. The **Source** column indicates where the data in the dataset came from. There are currently 5 possible values here: 
+These are the columns and the reasons for their existence / how they are used. 
+The **Source** column indicates where the data in the dataset came from. There are currently 5 possible values here: 
  1. Responses (direct content from email and questionnaires)
  2. ISO 639-3 tables
  3. SIL.org GIS data
@@ -7,8 +8,8 @@ These are the columns and the reasons for their existence / how they are used. T
  5. Researcher classified values based on qualitative responses from the questionnaires.
  
 The **Field type** indicates which Python datatype is in the field. There are two values used here:
-1. String
-2. Integer
+ 1. String
+ 2. Integer
 
 The **WordPress Field Name** is a field name that is parseable by WordPress so that I can look at the data in an interactive environment with mashup layers. The **Explanation** denotes why the field is necessary or how it came into being.
 
@@ -72,12 +73,12 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Source:_ Computed
  * _Field type:_ Interger
  * _WordPress Field Name:_ None.
- * _Explanation:_ Because the 'SIL Project' question is an open field is an open text field, a variety of answers are possible. This can include more than "Yes or No". This field becomes a binary representation of the 'SIL Project' field with a numerical value of 1 for SIL and an numerical value of 2 for other answers. This field is computed in the following way: if the field 'SIL Project' as a string is "SIL" then a value of '1' is given, else 2.
+ * _Explanation:_ Because the 'SIL Project' question is an open field is an open text field, a variety of answers are possible. This can include more than "Yes or No". This field becomes a binary representation of the 'SIL Project' field with a numerical value of '1' for 'SIL'/'Yes' and an numerical value of '2' for other answers. This field is computed in the following way: if the field 'SIL Project' as a string is "SIL" then a value of '1' is given, else '2'.
 * **Did Hugh have to make a categorical decision based on the provided data, and what was that response?**
  * _Source:_ Researcher classified value
  * _Field type:_ String
  * _WordPress Field Name:_ None.
- * _Explanation:_ Often in the comments researchers would indicate multiple lexical database projects. A second record was then added if needed. This was recorded with a value of 'Split Entry'. A second text item 'Need help' was also used to indicate that the response was complex and further negotiation of details with the researcher was required.
+ * _Explanation:_ Often in the comments researchers would indicate multiple lexical database projects. A second record was then added if needed. This was recorded with a value of 'Split Entry'. A second text item 'Need help' was also used to indicate that the response was complex and further negotiation of details with the researcher was required. This field was used for internal tracking. It also indicates that records generated were not actions of people adding multiple entires via the google form.
 * **The respondent said that they archived their lexical database.**
  * _Source:_ Researcher classified value
  * _Field type:_ String
@@ -90,12 +91,12 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ This field is a binary summary of the responses. That is, the field contains a '1' when the respondent says they archived and a '2' when the respondent says they did not archive. This is done before any analysis about the archive solution the respondent says they interact with. It is binary for sorting purposes. With the use of Python this field may be unnecessary. The field is currently marked as 'Researcher classified value', but should likely be converted to values derived via Python and be converted to 'Computed". 
 * **Stop Class1**
  * _Source:_ -
- * _Field type:_ -
+ * _Field type:_ Interger
  * _WordPress Field Name:_ -
  * _Explanation:_
 * **The Institutional Archive at which the Lexical Database is allegedly archived**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
- * _Field type:_ -
+ * _Field type:_ String
  * _WordPress Field Name:_ lxdb_archive_name
  * _Explanation:_
 * **TAPS Archive**
@@ -105,7 +106,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_
 * **Stop Class2**
  * _Source:_ -
- * _Field type:_ -
+ * _Field type:_ Interger
  * _WordPress Field Name:_ -
  * _Explanation:_
 * **Was there anything found at the Archive?**
@@ -115,7 +116,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_
 * **Stop Class 3**
  * _Source:_ -
- * _Field type:_ -
+ * _Field type:_ Interger
  * _WordPress Field Name:_ -
  * _Explanation:_
 * **Items which should be in REAP found/not-found**
@@ -130,7 +131,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_
 * **Stop Class 4**
  * _Source:_ -
- * _Field type:_ -
+ * _Field type:_ Interger
  * _WordPress Field Name:_ -
  * _Explanation:_
 * **Was the archive entry description clear that this was a lexical database/dataset?**
@@ -140,7 +141,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_
 * **Stop Class 5**
  * _Source:_ -
- * _Field type:_ -
+ * _Field type:_ Interger
  * _WordPress Field Name:_ -
  * _Explanation:_
 * **Thinks they have archived but have not**
@@ -169,10 +170,10 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ -
  * _Explanation:_
 * **Method Received**
- * _Source:_ -
- * _Field type:_ -
+ * _Source:_ Researcher classified values
+ * _Field type:_ String
  * _WordPress Field Name:_ lxdb_method_received_answer
- * _Explanation:_
+ * _Explanation:_ This field exists to track how the entry record entered the databased. There are currently 4 possible values in this field: Responses via Google Docs, Responses via Email, Research via OLAC, and Research via Catalogues (mostly at the SIL Language and Culture Archive). In the data set these appear as the following strings: 
 * **Online Accessible Archive Record**
  * _Source:_ -
  * _Field type:_ -
@@ -187,37 +188,37 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Part2T**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Part1**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Scope**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
  * _WordPress Field Name:_ language_scope
- * _Explanation:_
+ * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Language_Type**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ -
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Ref_Name**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ -
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Comment**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ -
  * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Graphic Type**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ String
