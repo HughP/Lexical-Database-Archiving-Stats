@@ -5,7 +5,12 @@ These are the columns and the reasons for their existence / how they are used. T
  3. SIL.org GIS data
  4. Computed values based on responses
  5. Researcher classified values based on qualitative responses from the questionnaires.
-The **Field type** indicates which Python datatype is in the field. The **WordPress Field Name** is a field name that is parseable by WordPress so that I can look at the data in an interactive environment with mashup layers. The **Explanation** denotes why the field is necessary or how it came into being.
+ 
+The **Field type** indicates which Python datatype is in the field. There are two values used here:
+1. String
+2. Integer
+
+The **WordPress Field Name** is a field name that is parseable by WordPress so that I can look at the data in an interactive environment with mashup layers. The **Explanation** denotes why the field is necessary or how it came into being.
 
 
 * **ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:**
@@ -31,12 +36,12 @@ The **Field type** indicates which Python datatype is in the field. The **WordPr
 * **FLEx Version**
  * _Source:_ Computed
  * _Field type:_ String (though this is digits in the form of 1.2.3)
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ This is the version of FLEx that the respondent said that they were using at the time the response was received. The online form has a version number in the answer but this field separates the data returned in the questionnaire and only includes the version number.
 * **What Lexical Database Solution do you use:**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ This is the output of the form. Which is different than the input I am using for detailed analysis of users.
 * **Email address**
  * _Source:_ This data comes from the questionnaire responses. 
@@ -46,7 +51,7 @@ The **Field type** indicates which Python datatype is in the field. The **WordPr
 * **Lexical Database creator or contact person**
  * _Source:_ -
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ This is the name of the individual who created the lexical database. It was voluntarily provided, and optional in the web form, from self reporters, it was in the archive record for those records found in archives or OLAC. It was automatically provided when someone replied via email.
 * **Lexical Database record Provider**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
@@ -69,20 +74,20 @@ The **Field type** indicates which Python datatype is in the field. The **WordPr
  * _WordPress Field Name:_ None.
  * _Explanation:_ Because the 'SIL Project' question is an open field is an open text field, a variety of answers are possible. This can include more than "Yes or No". This field becomes a binary representation of the 'SIL Project' field with a numerical value of 1 for SIL and an numerical value of 2 for other answers. This field is computed in the following way: if the field 'SIL Project' as a string is "SIL" then a value of '1' is given, else 2.
 * **Did Hugh have to make a categorical decision based on the provided data, and what was that response?**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Source:_ Researcher classified value
+ * _Field type:_ String
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ Often in the comments researchers would indicate multiple lexical database projects. A second record was then added if needed. This was recorded with a value of 'Split Entry'. A second text item 'Need help' was also used to indicate that the response was complex and further negotiation of details with the researcher was required.
 * **The respondent said that they archived their lexical database.**
- * _Source:_ -
- * _Field type:_ -
+ * _Source:_ Researcher classified value
+ * _Field type:_ String
  * _WordPress Field Name:_ lxdb_archived_status
- * _Explanation:_
+ * _Explanation:_ The questionnaire does not provide a binary value for a archived 'yes/no' distinction, because "no" is equally presented in the questionnaire with a variety of "yes" options. This field was manually curated, but might be possible to use Python to curate in the future. It uses two strings, "Yes" and "No. - Never Archived it."
 * **Behavior**
- * _Source:_ -
+ * _Source:_ Researcher classified value
  * _Field type:_ Interger
- * _WordPress Field Name:_ -
- * _Explanation:_ This field is a binary summary of the responses. That is, the field contains a '1' when the respondent says they archived and a '2' when the respondent says they did not archive. This is done before any analysis about the archive solution the respondent says they interact with. It is binary for sorting purposes. With the use of Python this field may be unnecessary.
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ This field is a binary summary of the responses. That is, the field contains a '1' when the respondent says they archived and a '2' when the respondent says they did not archive. This is done before any analysis about the archive solution the respondent says they interact with. It is binary for sorting purposes. With the use of Python this field may be unnecessary. The field is currently marked as 'Researcher classified value', but should likely be converted to values derived via Python and be converted to 'Computed". 
 * **Stop Class1**
  * _Source:_ -
  * _Field type:_ -
@@ -215,47 +220,47 @@ The **Field type** indicates which Python datatype is in the field. The **WordPr
  * _Explanation:_
 * **Graphic Type**
  * _Source:_ SIL.org GIS Data
- * _Field type: String_ -
- * _Explanation:_ This field comes from the data in the SIL list of endangered languages. It represents a shape on their map.
+ * _Field type:_ String
+ * _Explanation:_ This field comes from the data in the SIL list of endangered languages. It represents a shape on their map. The value is alway 'circle'. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **Latitude**
  * _Source:_ SIL.org GIS Data
- * _Field type:_ -
- * _WordPress Field Name:_ -
- * _Explanation:_ 
+ * _Field type:_ Integer
+ * _WordPress Field Name:_ language_latitude
+ * _Explanation:_ This is the Latitude point value that the SIL.org data provides. The data is assumed to be on WGS84 datum. The data appears in the 0.00000 or -0.00000 format.
 * **Longitude**
  * _Source:_ SIL.org GIS Data
- * _Field type:_ -
- * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Field type:_ Integer
+ * _WordPress Field Name:_ language_longitude
+ * _Explanation:_ This is the Longitude point value that the SIL.org data provides. The data is assumed to be on WGS84 datum. The data appears in the 0.00000 or -0.00000 format.
 * **Language Link**
  * _Source:_ SIL.org GIS Data
- * _Field type:_ -
- * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Field type:_ String
+ * _WordPress Field Name:_ lxdb_language_link
+ * _Explanation:_ This field is a HTML encoded link to the Ethnologue record for the language.
 * **Language Name**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ language_name
  * _Explanation:_ Ethnologue/ ISO 639-3 language name
 * **Contains Apostrophe**
  * _Source:_ String
- * _Field type:_ -
- * _WordPress Field Name:_ -
- * _Explanation:_ ISO 639-3 data is different than Ethnologue data in that ethnologue data itself does not use apostrophes where as ISO 639-3 does.
+ * _Field type:_ String
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ ISO 639-3 data is different than Ethnologue data in that ethnologue data itself does not use apostrophes where as ISO 639-3, and SIL.org do, so if a language name comes from the Ethnologue, then the data may not be the same as if it comes from SIL.org or the ISO 639-3 code table.
 * **leaflet_id**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a unique leaflet ID for each dot/datapoint for the production of dots on a mashup map.
 * **Radius**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a radius for the production of dots on a mashup map.
 * **Color**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ Color of the circle. This field is unused. It is residue from the data merge with SIL.org data. Their script requires a an HTML color for the production of dots on a mashup map.
 * **Ethnologue Status**
  * _Source:_ SIL.org GIS Data
@@ -264,26 +269,26 @@ The **Field type** indicates which Python datatype is in the field. The **WordPr
  * _Explanation:_ This field is residue from the data merge with SIL.org data. It should be replaced with the EGIDS value of each language. The 'Union Status Key' computes based on the value of this field. This field has two values, *Robust* and *Endangered*. SIL.org claimed at the time the data was collected that the data was sourced from the Ethnologue 17th edition. The *Endangered languages* are languages classified in the Ethnologue with an EGIDS value of 6b-9, while *Robust languages* are classified as 0-6a on the EGIDS scale.
 * **Union Status Key**
  * _Source:_ Computed
- * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _Field type:_ Integer
+ * _WordPress Field Name:_ None.
  * _Explanation:_
 * **Hex Fill Color**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires an HTML color for the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **Weight**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a weight classification in the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **Opacity**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a opacity value in the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **FillOpacity**
  * _Source:_ SIL.org GIS Data
  * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a fill opacity classification in the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
