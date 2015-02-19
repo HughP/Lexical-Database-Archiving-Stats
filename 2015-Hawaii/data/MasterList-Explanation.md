@@ -280,16 +280,16 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires an HTML color for the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **Weight**
  * _Source:_ SIL.org GIS Data
- * _Field type:_ -
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a weight classification in the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **Opacity**
  * _Source:_ SIL.org GIS Data
- * _Field type:_ -
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a opacity value in the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
 * **FillOpacity**
  * _Source:_ SIL.org GIS Data
- * _Field type:_ -
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ This field is unused. It is residue from the data merge with SIL.org data. Their script requires a fill opacity classification in the production of dots on a mashup map. I left it in incase I use the same production method, though realistically this column should likely be dropped.
