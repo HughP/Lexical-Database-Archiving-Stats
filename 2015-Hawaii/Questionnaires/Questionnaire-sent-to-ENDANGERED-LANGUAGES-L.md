@@ -16,7 +16,7 @@ Four questions:
 1. Are you using FLEx or ToolBox and which version are you using?:
 2. What is the ISO 639-3 code of the language you are using it with (analyzing/investigating)?:
 3. Have you ever archived a version of your current Lexical Database at an official archive? (An archive like SIL's L & CA -REAP-, or SOAS's ELAR, or MPI's TLA, or PARADISEC. - Though it doesn't have to be one of these four. ) - Yes / No:
-4: Have you ever produced a Print or Digital Publication from your Lexical data (like a Glossary or a Dictionary)? if so we would like to hear about it, got a link or a citation?:
+4. Have you ever produced a Print or Digital Publication from your Lexical data (like a Glossary or a Dictionary)? if so we would like to hear about it, got a link or a citation?:
 
 
 
