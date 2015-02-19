@@ -50,7 +50,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ lxdb_email_address_of_data_provider
  * _Explanation:_ This is the email address of the record creator. It is personal information and should not be in the public version of the dataset. It was voluntarily provided, and optional in the web form. It was automatically provided when someone replied via email.
 * **Lexical Database creator or contact person**
- * _Source:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ String
  * _WordPress Field Name:_ None.
  * _Explanation:_ This is the name of the individual who created the lexical database. It was voluntarily provided, and optional in the web form, from self reporters, it was in the archive record for those records found in archives or OLAC. It was automatically provided when someone replied via email.
@@ -90,9 +90,9 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ None.
  * _Explanation:_ This field is a binary summary of the responses. That is, the field contains a '1' when the respondent says they archived and a '2' when the respondent says they did not archive. This is done before any analysis about the archive solution the respondent says they interact with. It is binary for sorting purposes. With the use of Python this field may be unnecessary. The field is currently marked as 'Researcher classified value', but should likely be converted to values derived via Python and be converted to 'Computed". 
 * **Stop Class1**
- * _Source:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **The Institutional Archive at which the Lexical Database is allegedly archived**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
@@ -100,58 +100,58 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ lxdb_archive_name
  * _Explanation:_
 * **TAPS Archive**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
+ * _Field type:_ <-- **NEED ANSWER**-->
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Stop Class2**
- * _Source:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Was there anything found at the Archive?**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
+ * _Field type:_ <-- **NEED ANSWER**-->
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Stop Class 3**
- * _Source:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Items which should be in REAP found/not-found**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
+ * _Field type:_ <-- **NEED ANSWER**-->
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Was the thing a Lexical Database?**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
+ * _Field type:_ <-- **NEED ANSWER**-->
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Stop Class 4**
- * _Source:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Was the archive entry description clear that this was a lexical database/dataset?**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
+ * _Field type:_ <-- **NEED ANSWER**-->
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Stop Class 5**
- * _Source:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
  * _Field type:_ Interger
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Thinks they have archived but have not**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _Source:_ <-- **NEED ANSWER**-->
+ * _Field type:_ <-- **NEED ANSWER**-->
+ * _WordPress Field Name:_ <-- **NEED ANSWER**-->
  * _Explanation:_
 * **Anything we should know?**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
- * _Field type:_ -
+ * _Field type:_ <-- **NEED ANSWER**-->
  * _WordPress Field Name:_ String
  * _Explanation:_
 * **If you are using FLEx or Toolbox have you produced a Print publication?**
@@ -211,9 +211,9 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Ref_Name**
  * _Source:_ ISO 639-3 tables
- * _Field type:_ -
- * _WordPress Field Name:_ -
- * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
+ * _Field type:_ String
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ **This is the name as the ISO uses it and insufficient (in an encoding sense) for our uses here.** But the characters do not include non-ascii characters. As a field in the ISO 639-3 code table, this field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Comment**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
@@ -242,7 +242,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
  * _WordPress Field Name:_ language_name
- * _Explanation:_ SIL.org / ISO 639-3 language name. The general process here is to get the names from the ISO tables and then evaluate if any changes are needed.
+ * _Explanation:_ SIL.org language name. It contains proper Unicode characters for the Name. The general process here is to get the names from the ISO tables and then evaluate if any changes are needed.
 * **Contains Apostrophe**
  * _Source:_ String
  * _Field type:_ String
