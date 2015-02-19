@@ -19,7 +19,7 @@ These are the columns and the reasons for their existence. The source column ind
  * _Source:_ Computed
  * _Field type:_ String
  * _WordPress Field Name:_ lxdb_application
- * _Explanation:_ This is the application name of the lexical database solution. It is assumed that the answers in this list will form a basic taxonomy of the applications being used for creating the Lexical databases. In the multiple choice options several were suggested: FLEx, Toolbox, 
+ * _Explanation:_ This is the application name of the lexical database solution. It is assumed that the answers in this list will form a basic taxonomy of the applications being used for creating the Lexical databases. In the multiple choice options several were suggested: FLEx, ToolBox, Lexus, TshwaneLex, etc 
 * **FLEx Version**
  * _Source:_ Computed
  * _Field type:_ String (though this is digits in the form of 1.2.3)
