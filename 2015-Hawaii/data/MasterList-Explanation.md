@@ -152,12 +152,12 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
 * **Anything we should know?**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
  * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ String
  * _Explanation:_
 * **If you are using FLEx or Toolbox have you produced a Print publication?**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
  * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ String
  * _Explanation:_
 * **Number of entries**
  * _Source:_ Varied
@@ -165,25 +165,25 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ lxdb_term_quantity
  * _Explanation:_ Some descriptions of lexical resources include a value for how many lexical entries are included in the resource. Some respondents provided this data as well. Coverage across the records is sporadic, but significant numbers of lexical databased comments included this data so it was included as its own field. The source is varied, sometimes it is from the responses, sometimes archive records, sometimes other.
 * **Last Date updated**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ -
- * _Explanation:_
+ * _Source:_ Researcher classified values
+ * _Field type:_ String
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ Sometimes Records have values for when a resource was last updated. I take it to mean that the version archived was not updated since the record was updated and include this kind of data in this table.
 * **Method Received**
  * _Source:_ Researcher classified values
  * _Field type:_ String
  * _WordPress Field Name:_ lxdb_method_received_answer
- * _Explanation:_ This field exists to track how the entry record entered the databased. There are currently 4 possible values in this field: Responses via Google Docs, Responses via Email, Research via OLAC, and Research via Catalogues (mostly at the SIL Language and Culture Archive). In the data set these appear as the following strings: 
+ * _Explanation:_ This field exists to track how the entry record entered the databased. There are currently 4 possible values in this field: Responses via Google Docs, Responses via Email, Research via OLAC, and Research via Catalogues (mostly at the SIL Language and Culture Archive). In the data set these appear as the following strings: 'Online Survey From', 'Mailed in', 'Found on OLAC', 'Discovery'.
 * **Online Accessible Archive Record**
- * _Source:_ -
- * _Field type:_ -
- * _WordPress Field Name:_ lxdb_url_to_archive_record
- * _Explanation:_ This field is the URL to the public archive record of the resource. Sometimes resources are embedded within collections and do not have their own URLs. This is problematic and then the record does not have a URL. For content which is not archived, URLs point to where the content is publicly accessible. 
-* **Private URLs**
- * _Source:_ Varied
+ * _Source:_ Researcher classified values
  * _Field type:_ String
- * _WordPress Field Name:_ -
- * _Explanation:_
+ * _WordPress Field Name:_ lxdb_url_to_archive_record
+ * _Explanation:_ This field is the URL to the public archive record of the resource. Sometimes resources are embedded within collections and do not have their own URLs. This is problematic in general. For content which is not archived, URLs point to where the content is publicly accessible. 
+* **Private URLs**
+ * _Source:_ Researcher classified values
+ * _Field type:_ String
+ * _WordPress Field Name:_ None.
+ * _Explanation:_ Sometimes private URLs are accessible to the researcher. These are not public, and are not published with the dataset, but help in the classification and tracking of resources.
 * **Part2B**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
