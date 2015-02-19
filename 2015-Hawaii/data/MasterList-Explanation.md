@@ -156,12 +156,12 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_
 * **If you are using FLEx or Toolbox have you produced a Print publication?**
  * _Source:_ This data comes from the questionnaire responses, via online form or email.
- * _Field type:_ -
- * _WordPress Field Name:_ String
+ * _Field type:_ String
+ * _WordPress Field Name:_ None.
  * _Explanation:_
 * **Number of entries**
- * _Source:_ Varied
- * _Field type:_ -
+ * _Source:_ Researcher classified values
+ * _Field type:_ String
  * _WordPress Field Name:_ lxdb_term_quantity
  * _Explanation:_ Some descriptions of lexical resources include a value for how many lexical entries are included in the resource. Some respondents provided this data as well. Coverage across the records is sporadic, but significant numbers of lexical databased comments included this data so it was included as its own field. The source is varied, sometimes it is from the responses, sometimes archive records, sometimes other.
 * **Last Date updated**
@@ -187,17 +187,17 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
 * **Part2B**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Part2T**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Part1**
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
- * _WordPress Field Name:_ -
+ * _WordPress Field Name:_ None.
  * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Scope**
  * _Source:_ ISO 639-3 tables
@@ -206,8 +206,8 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Language_Type**
  * _Source:_ ISO 639-3 tables
- * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _Field type:_ String
+ * _WordPress Field Name:_ None.
  * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Ref_Name**
  * _Source:_ ISO 639-3 tables
@@ -216,8 +216,8 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Comment**
  * _Source:_ ISO 639-3 tables
- * _Field type:_ -
- * _WordPress Field Name:_ -
+ * _Field type:_ String
+ * _WordPress Field Name:_ None.
  * _Explanation:_ Is a field in the ISO 639-3 code table. This field is best understood by consulting the ISO 639-3 registrar's own documentation.
 * **Graphic Type**
  * _Source:_ SIL.org GIS Data
@@ -242,7 +242,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Source:_ ISO 639-3 tables
  * _Field type:_ String
  * _WordPress Field Name:_ language_name
- * _Explanation:_ Ethnologue/ ISO 639-3 language name
+ * _Explanation:_ SIL.org / ISO 639-3 language name. The general process here is to get the names from the ISO tables and then evaluate if any changes are needed.
 * **Contains Apostrophe**
  * _Source:_ String
  * _Field type:_ String
