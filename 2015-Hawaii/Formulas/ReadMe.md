@@ -59,7 +59,7 @@ The collectted data is presented in the table below.
  ------------ | ------------ | ------------- | -------------
 Respondants | 96 | 79 | 175
 Total lexical databses described by responses | 203 | 168 | 371
-Number of lexical datasets from only respondents which were described as 'Archvied' | 63 | 38 | 101
+Number of lexical datasets from only respondents which were described as 'Archived' | 63 | 38 | 101
 Additional records found via OLAC | 4 | 18 | 22
 Additional records found via SIL Catalogue | 81 | 2 | 83
 New total number of lexical databases found | 288 | 188 | 476
