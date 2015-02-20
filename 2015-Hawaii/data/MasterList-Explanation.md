@@ -122,7 +122,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ This field is a binary field. Like 'Stop Class 1' and 'Stop Class 2' it is also a filter. This is a bit problematic of a test to equally conduct and was only conducted on those records with which were accessible to me as an individual. I checked to see if there was actually content behind the record, or if the record was only a place holder record. If no content behind the record was found then a '7' was assigned otherwise a '6' was assigned.
 * **Items which should be in REAP found/not-found**
  * _Source:_ Researcher classified value
- * _Field type:_ <-- **NEED ANSWER**-->
+ * _Field type:_ String
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Was the thing a Lexical Database?**
