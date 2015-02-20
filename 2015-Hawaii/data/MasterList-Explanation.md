@@ -124,14 +124,14 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Source:_ Researcher classified value
  * _Field type:_ String
  * _WordPress Field Name:_ None.
- * _Explanation:_ <-- **NEED ANSWER**-->
+ * _Explanation:_ This field is expressly stated as relating to SIL's Digital repository, REAP. However, the field should be cast more broadly to include other archives. In general it seems to be the same question as 'Stop Class 3'.
 * **Was the thing a Lexical Database?**
  * _Source:_ Researcher classified value
- * _Field type:_ <-- **NEED ANSWER**-->
+ * _Field type:_ String
  * _WordPress Field Name:_ None.
- * _Explanation:_ <-- **NEED ANSWER**-->
+ * _Explanation:_ One outstanding question which remains if one finds an object in an archive (after being told that it is a lexical database), is of course, is that object really a lexical database. This field gives an assessment of that. While I tried to be liberal with file extensions, several things were out: .zip files with PDFs or .docs in them were not considered lexical databases. (Neither were .pdf files, or .zip files.) All things considered, I was looking for FLEx files, Toolbox files, Shoebox files, Lexique Pro files, though MS Access and FileMaker Pro, and custom data files would count files would also be considered as lexical databases. OLAC does not have a designation for Lexical Databases, so clean searches of aggregated records is not possible. In general this is a larger conceptual problem in Linguistics: the difference between a database and a browse able collection of (anything) text, sentences, or words. By far the distinction which seemed to be create the largest amount of confusion is the difference between a Dictionary and a lexical database.
 * **Stop Class 4**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
