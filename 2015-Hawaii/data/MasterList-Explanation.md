@@ -71,7 +71,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ The questionnaire respondents are asked if this is an SIL project. This is an optionally answered question. Responses via email are curated to fit.
 * **Group**
  * _Source:_ Computed
- * _Field type:_ Interger
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ Because the 'SIL Project' question is an open field is an open text field, a variety of answers are possible. This can include more than "Yes or No". This field becomes a binary representation of the 'SIL Project' field with a numerical value of '1' for 'SIL'/'Yes' and an numerical value of '2' for other answers. This field is computed in the following way: if the field 'SIL Project' as a string is "SIL" then a value of '1' is given, else '2'.
 * **Did Hugh have to make a categorical decision based on the provided data, and what was that response?**
@@ -86,12 +86,12 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ The questionnaire does not provide a binary value for a archived 'yes/no' distinction, because "no" is equally presented in the questionnaire with a variety of "yes" options. This field was manually curated, but might be possible to use Python to curate in the future. It uses two strings, "Yes" and "No. - Never Archived it."
 * **Behavior**
  * _Source:_ Researcher classified value
- * _Field type:_ Interger
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ This field is a binary summary of the responses. That is, the field contains a '1' when the respondent says they archived and a '2' when the respondent says they did not archive. This is done before any analysis about the archive solution the respondent says they interact with. It is binary for sorting purposes. With the use of Python this field may be unnecessary. The field is currently marked as 'Researcher classified value', but should likely be converted to values derived via Python and be converted to 'Computed". 
 * **Stop Class1**
  * _Source:_ <-- **NEED ANSWER**-->
- * _Field type:_ Interger
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **The Institutional Archive at which the Lexical Database is allegedly archived**
@@ -106,7 +106,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class2**
  * _Source:_ <-- **NEED ANSWER**-->
- * _Field type:_ Interger
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_
 * **Was there anything found at the Archive?**
@@ -116,7 +116,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class 3**
  * _Source:_ <-- **NEED ANSWER**-->
- * _Field type:_ Interger
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Items which should be in REAP found/not-found**
@@ -131,7 +131,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class 4**
  * _Source:_ <-- **NEED ANSWER**-->
- * _Field type:_ Interger
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Was the archive entry description clear that this was a lexical database/dataset?**
@@ -141,7 +141,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class 5**
  * _Source:_ <-- **NEED ANSWER**-->
- * _Field type:_ Interger
+ * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Thinks they have archived but have not**
