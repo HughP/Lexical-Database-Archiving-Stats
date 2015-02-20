@@ -2,7 +2,7 @@
 This document attempts to explain the data structure and the purpose for that data structure, for the main data file for this project. That is I attempt to record the columns in the data and the reasons for their existence / how they are used.
 
 The **Source** column indicates where the data in the dataset came from. There are currently 5 possible values here: 
- 1. Responses (direct content from email and questionnaires)
+ 1. Questionnaire Responses (direct content from email and questionnaires) This includes archive records. However, Archive records as apposed to responses are recorded as 'Discovery' or 'Found in OLAC' in column 'Method Recived'. 
  2. ISO 639-3 tables
  3. SIL.org GIS data
  4. Computed values based on responses
@@ -16,17 +16,17 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
 
 
 * **ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:**
- * _Source:_ This data comes from the questionnaire responses (or in this case also archive records).
+ * _Source:_ Questionnaire Responses (or in this case also archive records).
  * _Field type:_ String
  * _WordPress Field Name:_ lxdb_subject_language
  * _Explanation:_ This is the ISO 639-3 code of the ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:
 * **Variety Name or language name**
- * _Source:_ This data comes from the questionnaire responses, via online form or email.
+ * _Source:_ Questionnaire Responses
  * _Field type:_ String
  * _WordPress Field Name:_ lxdb_language_variety_name
  * _Explanation:_ This is the varietal name, or sub-language name. The language name is the one from the ISO 639-3 table. However, this line is also needed because people keep lexicons of dialects or speech varieties which have not been given their own ISO 639-3 code.
 * **Timestamp**
- * _Source:_ This data comes from the questionnaire responses, via online form or email.
+ * _Source:_ Questionnaire Responses
  * _Field type:_ String (Though it is in a date format.)
  * _WordPress Field Name:_ post_date
  * _Explanation:_ This is the time and date that the response was received.
@@ -41,12 +41,12 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ None.
  * _Explanation:_ This is the version of FLEx that the respondent said that they were using at the time the response was received. The online form has a version number in the answer but this field separates the data returned in the questionnaire and only includes the version number.
 * **What Lexical Database Solution do you use:**
- * _Source:_ This data comes from the questionnaire responses, via online form or email.
+ * _Source:_ Questionnaire Responses
  * _Field type:_ String
  * _WordPress Field Name:_ None.
  * _Explanation:_ This is the output of the form. Which is different than the input I am using for detailed analysis of users.
 * **Email address**
- * _Source:_ This data comes from the questionnaire responses. 
+ * _Source:_ Questionnaire Responses 
  * _Field type:_ String
  * _WordPress Field Name:_ lxdb_email_address_of_data_provider
  * _Explanation:_ This is the email address of the record creator. It is personal information and should not be in the public version of the dataset. It was voluntarily provided, and optional in the web form. It was automatically provided when someone replied via email.
@@ -56,7 +56,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ None.
  * _Explanation:_ This is the name of the individual who created the lexical database. It was voluntarily provided in many cases, and via an optional field in the web form, from self reporters. It was in the archive record for those records found in archives or OLAC, and added at researcher discretion. It was automatically provided when someone replied via email. This field is needed because the person who created the database is not always the person who created the lexical resource.
 * **Lexical Database record Provider**
- * _Source:_ This data comes from the questionnaire responses, via online form or email.
+ * _Source:_ Questionnaire Responses
  * _Field type:_ String
  * _WordPress Field Name:_ lxdb_data_provider_name
  * _Explanation:_ This is the name of the individual who created the record. It was voluntarily provided, and optional in the web form. It was automatically provided when someone replied via email. While some of this data may be publicly available through archive records, not all of it is publicly available, therefore this column should not be included in the publicly available data.
@@ -66,7 +66,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ None.
  * _Explanation:_ This is a computed field so that participant quantities can be anonymously shared.
 * **SIL Project**
- * _Source:_ This data comes from the questionnaire responses, via online form or email.
+ * _Source:_ Questionnaire Responses
  * _Field type:_ String
  * _WordPress Field Name:_ lxdb_sil_project
  * _Explanation:_ The questionnaire respondents are asked if this is an SIL project. This is an optionally answered question. Responses via email are curated to fit.
@@ -91,42 +91,42 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ None.
  * _Explanation:_ This field is a binary summary of the responses. That is, the field contains a '1' when the respondent says they archived and a '2' when the respondent says they did not archive. This is done before any analysis about the archive solution the respondent says they interact with. It is binary for sorting purposes. With the use of Python this field may be unnecessary. The field is currently marked as 'Researcher classified value', but should likely be converted to values derived via Python and be converted to 'Computed". 
 * **Stop Class1**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
- * _Explanation:_ <-- **NEED ANSWER**-->
+ * _Explanation:_ This field is a three way field. Three possible values occur, '1', '2', or '3'. The value is assigned based on a review of the answers in the questionnaire response. A '1' is assigned if the respondent has claimed to have not archived their lexical database, A '2' is assigned if the respondent has claimed to have archived their lexical database, while a '3' is assigned when the respondent has claimed to not know if they have or not archived their lexical database. (How someone doesn't know is beyond me, but this is what people say.) This section is titled 'stop class 1' because each of the five stop classes act as a filter in the process of evaluating the value of a resource as it is claimed to be archived.
 * **The Institutional Archive at which the Lexical Database is allegedly archived**
- * _Source:_ This data comes from the questionnaire responses, via online form or email.
+ * _Source:_ Questionnaire Responses
  * _Field type:_ String
  * _WordPress Field Name:_ lxdb_archive_name
- * _Explanation:_
+ * _Explanation:_ The questionnaire makes several suggestions, but leaves this open.
 * **TAPS Archive**
  * _Source:_ Researcher classified value
- * _Field type:_ <-- **NEED ANSWER**-->
+ * _Field type:_ String
  * _WordPress Field Name:_ None.
- * _Explanation:_ <-- **NEED ANSWER**-->
+ * _Explanation:_ This field contains a 'Yes' or 'No' string. The goal here is to look for institutional archives, not just data stores, or institutional repositories (though institutional archives might also have repositories). The critical factor here is that there is institutional support with a mission of preservation and access. TAPS is a bit of a misnomer, in that I looked to TAPS as a starting point but strictly speaking TAPS was not the final authority. TAPS provides an overall score for archives but does not fail an archive if they fail critical sections, this means that archives do not have a pass/no pass "badge". It seems that issues like digital redundancy (backup of the whole archive), or a public online catalogue (of appropriately sharable content), should cause an 'archive' to fail regardless of if they are scoring high in other areas of the TAPS evaluation. When someone claims to have archived their content, but claim to 'archive' in a venue which is not "TAPS" passing in my evaluation, then I move that record to a category '5'.
 * **Stop Class2**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
- * _Explanation:_
+ * _Explanation:_ 
 * **Was there anything found at the Archive?**
- * _Source:_ <-- **NEED ANSWER**-->
- * _Field type:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
+ * _Field type:_ String
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class 3**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Items which should be in REAP found/not-found**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
  * _Field type:_ <-- **NEED ANSWER**-->
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Was the thing a Lexical Database?**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
  * _Field type:_ <-- **NEED ANSWER**-->
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
@@ -136,27 +136,27 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Was the archive entry description clear that this was a lexical database/dataset?**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
  * _Field type:_ <-- **NEED ANSWER**-->
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class 5**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Thinks they have archived but have not**
- * _Source:_ <-- **NEED ANSWER**-->
- * _Field type:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
+ * _Field type:_ String
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Anything we should know?**
- * _Source:_ This data comes from the questionnaire responses, via online form or email.
+ * _Source:_ Questionnaire Responses
  * _Field type:_ String
  * _WordPress Field Name:_ None.
  * _Explanation:_ This is an open field with sometimes personally identifying data. It is a plethora of information, but inconsistent across the total records. A lot of UX data comes from this column.
 * **If you are using FLEx or Toolbox have you produced a Print publication?**
- * _Source:_ This data comes from the questionnaire responses, via online form or email.
+ * _Source:_ Questionnaire Responses
  * _Field type:_ String
  * _WordPress Field Name:_ None.
  * _Explanation:_ This field contains answers about publication from the responses. Sometimes it is a simple 'Yes'/'No'; other times the contents of the field is more elaborate.
