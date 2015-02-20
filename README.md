@@ -14,7 +14,7 @@ In chronological order, most recent first, these are:
 
 ## Formulas 
 Formulas used in the papers and posters about Lexical Database Archiving.
-* Hawai'i 2015 - [Formulas used in the Hawai'i 2015 presentation](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/Formulas/Formulas.md)
+* Hawai'i 2015 - [Formulas used in the Hawai'i 2015 presentation](/2015-Hawaii/Formulas/Formulas.md)
 * Oregon 2014  - Methodologies are mostly the same as Hawai'i 2015 only the data changes
 * SIL-UND 2013 - Methodologies are mostly the same and the data is the same as Hawai'i 2013
 * Hawai'i 2013 - Not availble yet.
