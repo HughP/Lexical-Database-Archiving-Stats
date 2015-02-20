@@ -109,17 +109,17 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
- * _Explanation:_ 
+ * _Explanation:_ This field is a binary field. Like 'Stop Class 1' it is also a filter. However, the question being asked here is the "archive" claimed by the respondent a legitimate archive? a value of '4' is assigned to a passing archive where as a value of '5' is assigned to not passing archives. Legitimate archives based on responses were: AIATSIS, TLA, ELAR, PARADISEC, SIL REAP (which is the institutional repository hosted and managed by SIL International), Kaipuleohone, Lakota Language Consortium, LMU ITG, Pangloss (LACITO). Archives claimed to but not passing were: SIL Branch archives (which often do not have off site data redundancy, and who's contents are not always searchable via the SIL REAP system), and Sealang.
 * **Was there anything found at the Archive?**
  * _Source:_ Researcher classified value
  * _Field type:_ String
  * _WordPress Field Name:_ None.
- * _Explanation:_ <-- **NEED ANSWER**-->
+ * _Explanation:_ This is a string classification of 'Stop Class 3'. 'Yes' here equals '6' in 'Stop Class 3', whereas 'No' here equals '7' in 'Stop Class 3'. This redundancy is mainly for readability in the spread sheet. After moving to python this could likely be consolidated.
 * **Stop Class 3**
  * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
- * _Explanation:_ <-- **NEED ANSWER**-->
+ * _Explanation:_ This field is a binary field. Like 'Stop Class 1' and 'Stop Class 2' it is also a filter. This is a bit problematic of a test to equally conduct and was only conducted on those records with which were accessible to me as an individual. I checked to see if there was actually content behind the record, or if the record was only a place holder record. If no content behind the record was found then a '7' was assigned otherwise a '6' was assigned.
 * **Items which should be in REAP found/not-found**
  * _Source:_ Researcher classified value
  * _Field type:_ <-- **NEED ANSWER**-->
