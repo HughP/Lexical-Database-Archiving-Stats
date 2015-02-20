@@ -1,5 +1,6 @@
 #Data grid items and definitions used in the MasterList set of data
-These are the columns and the reasons for their existence / how they are used. 
+This document attempts to explain the data structure and the purpose for that data structure, for the main data file for this project. That is I attempt to record the columns in the data and the reasons for their existence / how they are used.
+
 The **Source** column indicates where the data in the dataset came from. There are currently 5 possible values here: 
  1. Responses (direct content from email and questionnaires)
  2. ISO 639-3 tables
@@ -100,7 +101,7 @@ The **WordPress Field Name** is a field name that is parseable by WordPress so t
  * _WordPress Field Name:_ lxdb_archive_name
  * _Explanation:_
 * **TAPS Archive**
- * _Source:_ <-- **NEED ANSWER**-->
+ * _Source:_ Researcher classified value
  * _Field type:_ <-- **NEED ANSWER**-->
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
