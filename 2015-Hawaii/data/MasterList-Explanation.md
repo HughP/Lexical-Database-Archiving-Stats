@@ -148,7 +148,7 @@ The **Explanation** denotes why the field is necessary or how it came into being
  * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
- * _Explanation:_ This field is a binary field. Like 'Stop Class 1', 'Stop Class 2', 'Stop Class 3' and 'Stop Class 4' it is also a filter. Possible values in this filter include '10' and '11'. The distinction between fields '10' and '11' are ones of how the resource is indexed. Basically was the resource easily findable in the archive catalogue or in OLAC? Did the resource actually say "lexical database", or was the title of the software used to create it in the description field of the archive record?
+ * _Explanation:_ This field is a binary field. Like 'Stop Class 1', 'Stop Class 2', 'Stop Class 3' and 'Stop Class 4' it is also a filter. Possible values in this filter include '10' and '11'. The distinction between fields '10' and '11' are ones of how the resource is indexed. Basically was the resource easily findable in the archive catalogue or in OLAC? Did the resource actually say "lexical database", or was the title of the software used to create it in the description field of the archive record? Well described resources were marked with '10', but records desireous of 'imporvement' were marked with '11'.
 * **Thinks they have archived but have not**
  * _Source:_ Researcher classified value
  * _Field type:_ String
