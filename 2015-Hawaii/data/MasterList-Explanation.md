@@ -2,7 +2,7 @@
 This document attempts to explain the data structure and the purpose for that data structure, for the main data file for this project. That is I attempt to record the columns in the data and the reasons for their existence / how they are used.
 
 The **Source** column indicates where the data in the dataset came from. There are currently 5 possible values here: 
- 1. Questionnaire Responses (direct content from email and questionnaires) This includes archive records. However, Archive records as apposed to responses are recorded as 'Discovery' or 'Found in OLAC' in column 'Method Recived'. 
+ 1. Questionnaire Responses (direct content from email and questionnaires) This includes archive records. However, Archive records as apposed to responses are recorded as 'Discovery' or 'Found in OLAC' in column 'Method Received'. 
  2. ISO 639-3 tables
  3. SIL.org GIS data
  4. Computed values based on responses
@@ -15,8 +15,8 @@ The **Field type** indicates which Python datatype is in the field. There are tw
 The **WordPress Field Name** is a field name that is parseable by WordPress so that I can look at the data in an interactive environment with mashup layers. 
 The **Explanation** denotes why the field is necessary or how it came into being.
 
-**Note**: There are a set of fields titled "Stop classes". It may be easier to understand the filtering role these play in alanysis by referencing the diagram.
-![Stop classes Explination](Lexical%20Database%20Explination%20public.png)
+**Note**: There are a set of fields titled "Stop classes". It may be easier to understand the filtering role these play in analysis by referencing the diagram.
+![Stop classes Explanation](Lexical%20Database%20Explanation%20public.png)
 
 #Data columns
 * **ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:**
@@ -138,10 +138,10 @@ The **Explanation** denotes why the field is necessary or how it came into being
  * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
- * _Explanation:_ This field is a binary field. Like 'Stop Class 1', 'Stop Class 2' and 'Stop Class 3' it is also a filter. Possible values in this filter include '8' and '9'.
+ * _Explanation:_ This field is a binary field. Like 'Stop Class 1', 'Stop Class 2' and 'Stop Class 3' it is also a filter. Possible values in this filter include '8' and '9'. The number '8' is assigned to records which do actually represent a verifiable lexical database, whereas a '9' is assigned to archive records with something in it but it was not a lexical database.
 * **Was the archive entry description clear that this was a lexical database/dataset?**
  * _Source:_ Researcher classified value
- * _Field type:_ <-- **NEED ANSWER**-->
+ * _Field type:_ String
  * _WordPress Field Name:_ None.
  * _Explanation:_ <-- **NEED ANSWER**-->
 * **Stop Class 5**
