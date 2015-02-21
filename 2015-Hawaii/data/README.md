@@ -29,7 +29,8 @@ On 08. February 2015 it was discovered that some respondents would reply some mo
 On 12. February 2015 the live sheet was moved to https://docs.google.com/spreadsheets/d/1IVJ1xAbC0Kp4DNJBNmuEVlVMEsbjqmCvMMSWHuPwK14/edit?usp=sharing or Response sheet #3 in preparation for Hawaii 2015.
 
 ##Merge Data sets
-Documents discussed:
+Early in the project before Python skills were being developed, Google FusionTables was used to align various information about languages and lexical database records.
+Data sets and documents discussed:
 
 **iso-639-3_20140320**
 Location: https://www.google.com/fusiontables/DataSource?docid=1RLu37yB_CygIGp0xegfVxcDRlFuS68WQgRYx6fyN 
@@ -51,9 +52,8 @@ This file is the export from Numbers to Google Fusion Table
 **Merge of From Numbers and Merge of iso-639-3_20140320 and Location dots of languages from SIL.org**
 A Merge of the previously combined ISO and SIL data was combined with the FLEx archiving data from numbers: 
 
-
 #Specific files used in the projet
-##MasterDataFile
+##MasterDataFile.csv
 This datafile is not currently publicly available due to confidentiality constraints.
 
 ##Data File 1.csv
@@ -68,3 +68,6 @@ ParticipantID is an anonymized version of the respondent's provided name or resp
 **Behavior** is either, the participant said they archived or not, with unknowns counting as not. Where *archived = 1* and *not archived = 2*. 
 ## iso-639-3_20140320.csv
 This file is an export of the table used to collate other data. It is the ISO 639-3 Data which was current at the time of 2014/03/20.
+
+##SIL-org GIS Data.csv
+This datafile is a clean-up of the GIS data acquired via SIL.org.
