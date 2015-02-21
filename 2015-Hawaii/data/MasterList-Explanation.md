@@ -94,7 +94,7 @@ The **Explanation** denotes why the field is necessary or how it came into being
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
  * _Explanation:_ This field is a binary summary of the responses. That is, the field contains a '1' when the respondent says they archived and a '2' when the respondent says they did not archive. This is done before any analysis about the archive solution the respondent says they interact with. It is binary for sorting purposes. With the use of Python this field may be unnecessary. The field is currently marked as 'Researcher classified value', but should likely be converted to values derived via Python and be converted to 'Computed". 
-* **Stop Class1**
+* **Stop Class 1**
  * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
@@ -109,7 +109,7 @@ The **Explanation** denotes why the field is necessary or how it came into being
  * _Field type:_ String
  * _WordPress Field Name:_ None.
  * _Explanation:_ This field contains a 'Yes' or 'No' string. The goal here is to look for institutional archives, not just data stores, or institutional repositories (though institutional archives might also have repositories). The critical factor here is that there is institutional support with a mission of preservation and access. TAPS is a bit of a misnomer, in that I looked to TAPS as a starting point but strictly speaking TAPS was not the final authority. TAPS provides an overall score for archives but does not fail an archive if they fail critical sections, this means that archives do not have a pass/no pass "badge". It seems that issues like digital redundancy (backup of the whole archive), or a public online catalogue (of appropriately sharable content), should cause an 'archive' to fail regardless of if they are scoring high in other areas of the TAPS evaluation. When someone claims to have archived their content, but claim to 'archive' in a venue which is not "TAPS" passing in my evaluation, then I move that record to a category '5'.
-* **Stop Class2**
+* **Stop Class 2**
  * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
