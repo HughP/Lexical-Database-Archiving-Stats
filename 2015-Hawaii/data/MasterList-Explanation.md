@@ -15,7 +15,7 @@ The **Field type** indicates which Python datatype is in the field. There are tw
 The **WordPress Field Name** is a field name that is parseable by WordPress so that I can look at the data in an interactive environment with mashup layers. 
 The **Explanation** denotes why the field is necessary or how it came into being.
 **Note**: There are a set of fields titled "Stop classes". It may be easier to understand the filtering role these play in alanysis by referencing the diagram.
-![Stop classes Explination](/Lexical%20Database%20Explination%20public.png)
+![Stop classes Explination](Lexical%20Database%20Explination%20public.png)
 
 * **ISO 639-3 language code of the language you are analyzing/studying in your Lexical Database:**
  * _Source:_ Questionnaire Responses (or in this case also archive records).
