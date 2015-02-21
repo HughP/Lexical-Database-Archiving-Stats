@@ -138,22 +138,22 @@ The **Explanation** denotes why the field is necessary or how it came into being
  * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
- * _Explanation:_ This field is a binary field. Like 'Stop Class 1', 'Stop Class 2' and 'Stop Class 3' it is also a filter. Possible values in this filter include '8' and '9'. The number '8' is assigned to records which do actually represent a verifiable lexical database, whereas a '9' is assigned to archive records with something in it but it was not a lexical database.
+ * _Explanation:_ This field is a binary field. Like 'Stop Class 1', 'Stop Class 2' and 'Stop Class 3' it is also a filter. Possible values in this filter include '8' and '9'. The number '8' is assigned to records which do actually represent a verifiable lexical database, whereas a '9' is assigned to archive records with some object attached but the object was not a lexical database.
 * **Was the archive entry description clear that this was a lexical database/dataset?**
  * _Source:_ Researcher classified value
  * _Field type:_ String
  * _WordPress Field Name:_ None.
- * _Explanation:_ <-- **NEED ANSWER**-->
+ * _Explanation:_ This field is mostly sparsely populated. It is used as a note field for the kind of object which was actually found. 
 * **Stop Class 5**
  * _Source:_ Researcher classified value
  * _Field type:_ Integer
  * _WordPress Field Name:_ None.
- * _Explanation:_ <-- **NEED ANSWER**-->
+ * _Explanation:_ This field is a binary field. Like 'Stop Class 1', 'Stop Class 2', 'Stop Class 3' and 'Stop Class 4' it is also a filter. Possible values in this filter include '10' and '11'. The distinction between fields '10' and '11' are ones of how the resource is indexed. Basically was the resource easily findable in the archive catalogue or in OLAC? Did the resource actually say "lexical database", or was the title of the software used to create it in the description field of the archive record?
 * **Thinks they have archived but have not**
  * _Source:_ Researcher classified value
  * _Field type:_ String
  * _WordPress Field Name:_ None.
- * _Explanation:_ <-- **NEED ANSWER**-->
+ * _Explanation:_ This is a notes field and was based on a combination of relies from "What else should we know" and information provided about the archive, and the respondents' reply about archiving.
 * **Anything we should know?**
  * _Source:_ Questionnaire Responses
  * _Field type:_ String
