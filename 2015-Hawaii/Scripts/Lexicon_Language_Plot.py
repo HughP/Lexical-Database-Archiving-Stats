@@ -88,5 +88,5 @@ for lon, lat, union in zip(lons, lats, union_class):
 title_string = "Languages Mentioned in Responses and Catalogues\n"
 #title_string += "SIL Archived Endangered ---" return ('bD')"\n SIL not archived Endangered --- Blue Diamond\n Non-SIL Archived Endangered --- Green circles\n Non-SIL Not Archived Endangered --- Green Diamonds\n SIL Archived Robust --- Yellow Circles\n SIL not archived Robust --- Yellow Square\n Non-SIL Archived Robust --- Red Circle\n Non-SIL Not Archived Robust --- Red Octagon\n"
 plt.title(title_string)
- 
+plt.legend(proxy,"range(1-2)",) 
 plt.show()
