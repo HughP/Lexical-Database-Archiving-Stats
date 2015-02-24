@@ -89,22 +89,23 @@ Two options are:
 Proving that groups are the same is harder to do. But proving that groups are different is easier. Fisher's exact test 2x2 tables is preey easy math. and will give a differens test. I can show straight data and percentages when I want to show comparisons between the two groups.
 
 ##Fishers' Exact Test
-When comparing Respondenets 
+When comparing Respondenets
+
  | SIL Staff | Other
- ------------ | ------------ | -------------
+------------ | ------------ | -------------
 Archivers| 28 | 18
 Non-Archivers| 69 | 62
 
-[//]: # ###Chi Square
-[//]: # To do this I used the chi sqhare test in python as described here: http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.chisquare.html
-[//]: # This test was run on [Data File 1](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/Anonymized%20Participant%20data%20-%20(about%20data%20file%201).md).
+[//] : # ###Chi Square
+[//] : # To do this I used the chi sqhare test in python as described here: http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.chisquare.html
+[//] : # This test was run on [Data File 1](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/Anonymized%20Participant%20data%20-%20(about%20data%20file%201).md).
 
-[//]: # My concern with the Chi Square test is that it will not work in a two part population. And rather a Binomial test should be used.
+[//] : # My concern with the Chi Square test is that it will not work in a two part population. And rather a Binomial test should be used.
 
-[//]: # Binomial Test - Crititally are they the same.
+[//] : # Binomial Test - Crititally are they the same.
 
-[//]: # * http://en.wikipedia.org/wiki/Binomial_test
-[//]: # * http://www.graphpad.com/guides/prism/6/statistics/index.htm?stat_binomial.htm
+[//] : * http://en.wikipedia.org/wiki/Binomial_test
+[//] : # * http://www.graphpad.com/guides/prism/6/statistics/index.htm?stat_binomial.htm
 
 [//]: # ###Prop Test
 [//]: # as described here: http://stattrek.com/hypothesis-test/difference-in-proportions.aspx
