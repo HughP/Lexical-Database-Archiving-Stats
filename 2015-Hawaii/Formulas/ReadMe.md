@@ -83,8 +83,8 @@ There are two approahces one could take. One could say that the null hypothesis 
 When completed I should be able to make the following claim: To acomplish the comparison, statistical tests of the data were completed. I have applied two statsitical tests to only the responses recived and not the additional tokens discovered through OLAC and the Language & Culture Archive catalogue.
 
 Two options are:
-1. what is the likelihood that the groups are different and 
-2. what is the likelihood that the groups are the same... 
+ 1. what is the likelihood that the groups are different and 
+ 2. what is the likelihood that the groups are the same... 
  
 Proving that groups are the same is harder to do. But proving that groups are different is easier. Fisher's exact test 2x2 tables is preey easy math. and will give a differens test. I can show straight data and percentages when I want to show comparisons between the two groups.
 
