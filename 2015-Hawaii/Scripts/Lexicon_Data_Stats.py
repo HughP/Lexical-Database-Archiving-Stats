@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #################### PURPOSE ##########################
 #The Goal of this script is to give counts from the growing dataset related to archving lexical data sets. Started on 17. February 2015 by Hugh Paterson III. For archival purposes I need to indicate which version of python I am using (python 2.7.9 on OSX 10.9.5 via Homebrew), and what modules I call and use (pandas (0.15.2) matplotlib (1.4.2) basemap (1.0.7.))
 #######################################################
@@ -32,14 +33,15 @@ df = df.rename(columns = {'ISO_639-3_code' : 'ISO639', })
 # 3. TOTAL RESPONSES
 # 4. TOTAL RESPONDENTS
 # 5. STOP CLASSES IN TREE
-# 6. COMPUTE FISHER EXACT TEST
-# 7. COMPUTE PERCENTAGES
+# 6. COMPUTE FISHER EXACT TEST FOR RESPONDENTS
+# 7. COMPUTE FISHER EXACT TEST FOR Resources
+# 8. COMPUTE PERCENTAGES
 #######################################################
 
 ######## TOTAL NUMBER OF RECORDS COLLECTED ############
 #The first thing I need to count is the total number of records collected. Since every record should have a method attached to it about how I recived the record I will count the number of items in the column 'Method_Received'.
 #Total number of records in the dataset based on the the premise that each record's counts will track how it was collected. 
-Sum_Received = df.Method_Received.count() -1 ###!!! Currently this number is 1 too high. Is this counting including the index 0 row?
+Sum_Received = df.Method_Received.count() -1 ###!!! Currently this number is 1 too high. Is this counting including the index 0 row? No it is not including the the header row. Not sur why this is one number too high.
 #print "Total number of records", Sum_Received, "\n"
 ######################################################
 
@@ -77,18 +79,38 @@ Other_Responses = len(df.Group[df.Group == 2][df.Method_Received == 'Online Surv
 #Following this I need to add a column with the value of the anonymized particiapnt in the form of 'ParticipantID'. This needs to be added in the column 'ParticipantID'. There needs to be a check to see if this ID already exists. Idealy the 'ParticipantID' column would be generated on the fly each time.
 
 ################### TOTAL RESPONDENTS ################
-Total_Respondents = len(df.ParticipantID.value_counts()) - 1 # This counts all participants. However, the researcher is also one of the participants. Therefore to caculate all respondants, the total minus the researcher is caculated. The researcher is Hugh Paterson III.
+Total_Respondents = len(df.ParticipantID.value_counts()) - 1 # This counts all participants. However, the researcher is also one of the participants. Therefore to caculate all respondents, the total minus the researcher is caculated. The researcher is Hugh Paterson III.
 Total_RecordProviders = len(df.LXDBRecordProvider.value_counts())
-List_RecordProviders = df.LXDBRecordProvider.value_counts()
+List_RecordProviders = df.ParticipantID.value_counts() # This line returns all the participants and the quantitty that each provided. It links to line 89 which is commented out.
 	
 #SIL_Respondents = len(df.Group[df.SILProject == 'SIL']) #This line as it is written does not account for less than only one of eachkind in the ParticipantID
 print "ABOUT RESPONDENTS""\n"
 print "Total Respondents:", Total_Respondents, "\n"
 print "Total Record Providers:", Total_RecordProviders, "\n"
-print "List Total_RecordProviders:" "\n", List_RecordProviders, "\n" #Why does this list clip to the top and the bottom 12 each?
-#print "SIL Respondents:", SIL_Respondents, "\n"
-######################################################
+#print "List Total_RecordProviders:" "\n", List_RecordProviders, "\n" #Why does this list clip to the top and the bottom 12 each? - Just in Console.
+print "This means that", Total_Respondents, "people responded to the survey. However one more, the researcher, contributed records bring the total to:", Total_RecordProviders, "."
 
+# Now I need to break down the two Groups of Respondants 
+df2 = df[df.Method_Received == 'Online Survey From'] # This creates a dataframe of all the rows with "Online survey Form" in the "Method Recieved" column.
+df3 = df[df.Method_Received == 'Mailed in'] # This creates a dataframe of all the rows with "Mailed in" in the "Method Recieved" column.
+templist = [df2,df3] # This lists these two items together. If I need a refined list or one with another option I can do that. ?!?!This works be because they are on the same column.
+
+# df2.ParticipantID.value_counts()
+
+df4 = pandas.concat(templist) #This brings the two lists together.
+
+#df4.ParticipantID[df.Group == 1].value_counts() #This is a sample line of code and returns a list of df 4's 
+#len(set(df4.ParticipantID))
+
+
+#Note: this is participants not just "Respondents".
+SILParticipants = len(set(df4.ParticipantID[df.Group == 1]))
+OtherParticipants = len(set(df4.ParticipantID[df.Group == 2]))
+TotalRes = SILParticipants + OtherParticipants
+#[df.Group == 1]
+#values set(df2)
+print "Of these respondents what was the divide between SIL participants and participants with other affiliations? SIL Saff:", SILParticipants, "Other Participants:", OtherParticipants, "Total:", TotalRes, "\n"
+######################################################
 
 ############# COMPUTE CLASSES FOR WORLD MAP #############
 #I need to count is the number in each class of the data on hand. This is for plotting purposes on the map. Note that variables j have not yet been implimented because they need to account for data which is not present and I am not sure how to do this yet.
@@ -122,6 +144,7 @@ Response_a_h_sum = Response_SIL_Archived_Endangered + Response_SIL_NotArchived_E
 
 
 ################ STOP CLASSES IN TREE ######################
+print "ABOUT Stop Classes"
 #Where are we here?
 
 #Stop Class 1
@@ -154,13 +177,13 @@ Claims_UnknownArchived_3_Other = len(df.Group[df.Group == 2][df.SC1 == 3])
 Claims_UnknownArchived_3_Total = Claims_UnknownArchived_3_SIL + Claims_UnknownArchived_3_Other
 print "Of all,", Sum_Received, "records in the dataset,", Claims_Archived_2_Total, "are marked 'Archived'; of those", Claims_Archvied_2_SIL, "were from SIL, while", Claims_Archived_2_Other, "were from others."
 print "Of all,", Sum_Received, "records in the dataset,", Claims_NotArchived_1_Total, "are marked 'Not Archived'; of those", Claims_NotArchived_1_SIL, "were from SIL, while", Claims_NotArchived_1_Other, "were from others."
-print "Of all,", Sum_Received, "records in the dataset,", Claims_UnknownArchived_3_Total, "are marked 'Unknown Archived'; of those", Claims_UnknownArchived_3_SIL, "were from SIL, while", Claims_UnknownArchived_3_Other, "were from others."
+print "Of all,", Sum_Received, "records in the dataset,", Claims_UnknownArchived_3_Total, "are marked 'Unknown Archived' meaning the respondent didn't know if the object was archived; of those", Claims_UnknownArchived_3_SIL, "were from SIL, while", Claims_UnknownArchived_3_Other, "were from others."
 
 x = Claims_Archived_2_Total + Claims_NotArchived_1_Total + Claims_UnknownArchived_3_Total
 print(x)
 
 
-#Stop Class 2 (Formerly known as TAPS) SC2
+#Stop Class 2 (Formerly known as TAPS) SC2 ***!!! I think these fub filters are picking up evertthing not just the ones which are also previously true. SC3 should only be true if also SC2 is true.
 
 Archive_Location_Responses_Yes_4_SIL = len(df.Group[df.Method_Received == 'Online Survey From'][df.Group == 1][df.SC2 == 4]) + len(df.Group[df.Method_Received == 'Mailed in'][df.Group == 1][df.SC2 == 4])
 Archive_Location_Responses_Yes_4_Other = len(df.Group[df.Method_Received == 'Online Survey From'][df.Group == 2][df.SC2 == 4]) + len(df.Group[df.Method_Received == 'Mailed in'][df.Group == 2][df.SC2 == 4])
@@ -244,12 +267,28 @@ Good_Description_Lxdb_No_11_Total = Good_Description_Lxdb_No_11_SIL + Good_Descr
 
 ######################################################
 
-############# COMPUTE FISHER EXACT TEST ###############
-#Why --> V.s up down? http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.fisher_exact.html
-pvalue = stats.fisher_exact([[8, 2], [1, 5]])
-print("Fishers Exact p Value:", pvalue)
+###### COMPUTE FISHER EXACT TEST FOR RESPONDANTS #####
+
+#Note: this is participants not just "Respondents".
+SILParticipantsArchivers = len(set(df4.ParticipantID[df.Group == 2][df.Behavior == 1]))
+SILParticipantsNonArchivers = len(set(df4.ParticipantID[df.Group == 2][df.Behavior == 2]))
+OtherParticipantsArchivers = len(set(df4.ParticipantID[df.Group == 2][df.Behavior == 1]))
+OtherParticipantsNonArchivers = len(set(df4.ParticipantID[df.Group == 2][df.Behavior == 2]))
+
+#Why --> V.s up down? http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.fisher_exact.html - Doesn't matter the order.
+pvalue = stats.fisher_exact([[31, 18], [65, 62]])
+print("Fishers Exact p value comparing respondents:", pvalue)
+
 
 ######################################################
+
+###### COMPUTE FISHER EXACT TEST FOR Resources #####
+#Why --> V.s up down? http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.fisher_exact.html - Doesn't matter the order.
+pvalue = stats.fisher_exact([[63, 37], [140, 130]])
+print("Fishers Exact p Value for resources:", pvalue)
+
+######################################################
+
 
 ############### COMPUTE PERCENTAGES ##################
 
@@ -257,7 +296,23 @@ print("Fishers Exact p Value:", pvalue)
 ######################################################
 
 ########## DATA SUMMARY FOR COMPARISON ###############
+df2 = df[df.Method_Received == 'Online Survey From']
+df3 = df[df.Method_Received == 'Mailed in']
+templist = [df2,df3] #df2.ParticipantID.value_counts()
 
+df4 = pandas.concat(templist)
+
+df4.ParticipantID[df.Group == 1].value_counts()
+len(set(df4.ParticipantID))
+
+
+
+SILPart = len(set(df4.ParticipantID[df.Group == 1]))
+OtherPart = len(set(df4.ParticipantID[df.Group == 2]))
+TotalRes = SILPart + OtherPart
+#[df.Group == 1]
+#values set(df2)
+print "SIL Staff:", SILPart, "Other Part:", OtherPart, "Total:", TotalRes
 #	SIL Staff	Other	Totals
 #Respondants	96	79	175
 #Total lexical databses described by responses	203	168	371
