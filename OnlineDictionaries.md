@@ -21,7 +21,7 @@
 * [Yami Dictionary](http://yamibow.cs.pu.edu.tw/index_en.htm)
 
 ##Section 2
-_This section of the list is crectly sourced from: http://wil.cdh.ucla.edu/yaqui/WIL:Indigenous_Language_Websites which is licensed http://creativecommons.org/licenses/by-nc-sa/3.0/
+_This section of the list is crectly sourced from_: http://wil.cdh.ucla.edu/yaqui/WIL:Indigenous_Language_Websites _which is licensed_: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 
 Abenaki Dicitonary
