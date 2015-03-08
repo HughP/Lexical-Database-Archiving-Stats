@@ -1,6 +1,7 @@
 #List of online dictionaries and lexical projects
 ##Section 1
-##Massive Dictionary and Lexicography projects
+This content has been submitted to several lists including https://github.com/RichardLitt/endangered-languages which moved to: https://github.com/LowResourceLanguages/endangered-languages, and is licensed under CC-BY-SA-4.0 
+###Massive Dictionary and Lexicography projects
 * [ABVD](http://language.psy.auckland.ac.nz/austronesian/) Austronesian Basic Vocabulary Database
 * [CBOLD](http://www.cbold.ish-lyon.cnrs.fr/) Comparative Bantu OnLine Dictionary
 * [IE](http://ielex.mpi.nl./) Indo-european comparitive lexical resource
@@ -8,11 +9,11 @@
 * [Southeast Asian lexicography](http://sealang.net/) Several Southeast Asian lexicons hosted.
 * [STEDT](http://stedt.berkeley.edu/database) Tibeto-burman focused project  where dictionaries from several languages are comparable.
 * [Tibeto-burman lexicography](http://www.himalayanlanguages.org/cdtd)
-* [Proto- Austronesian]() - 
+* [Proto- Austronesian](http://www.trussel2.com/ACD/) - Trussel and Blust's data.
 
-##Single language lexicography projects
+###Single language lexicography projects
 
-###Interactions and presentations of data
+####Interactions and presentations of data
 * [Dict.cc](http://www.dict.cc/) An exlimpar model of a successful bilingual (German-English) dictionary as it has grown from a hobby to a business employing 22 people. 
 * [Koasati Digital Dictionary](http://koasati.wm.edu/) The Coushatta Tribe of Louisana
 * [Ojibwe People's Dictionary](http://ojibwe.lib.umn.edu/)
@@ -242,3 +243,11 @@ http://www.sil.org/MEXICO/zapoteca/istmo/S003c-VocZapIstmoEd5-zai.pdf
 
 Diccionario zapoteco de San Bartolome Zoogocho, Oaxaca
 http://www.sil.org/MEXICO/zapoteca/zoogocho/S038b-Diccionario-zpq.pdf
+
+
+## License
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+This work was started and initiated by Hugh Paterson III. Copyright 2015 by Hugh Paterson III and contributors. Licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+####Contributors
+* Hugh Paterson III
