@@ -1,5 +1,5 @@
 # Lexical-Database-Archiving-Stats
-This gihub repository contains scripts, formulas and data used in posters, presentations and papers presented, authored or co-autorhed by Hugh Paterson III on the topic of *User Experince in digital interactions surrounding language archives*. The purpose of these papers and presentations is to present research and rasise questions about the activites and attitudes of people interacting with language archives.
+This gihub repository contains scripts, formulas and data used in posters, presentations and papers presented, authored or co-autorhed by Hugh Paterson III on the topic of *User Experience in digital interactions surrounding language archives*. The purpose of these papers and presentations is to present research and rasise questions about the activites and attitudes of people interacting with language archives.
 
 ##Papers, Publications, and Presentations (and notes or additional discussion items)
 In chronological order, most recent first, these are:
