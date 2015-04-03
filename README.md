@@ -10,7 +10,7 @@ In chronological order, most recent first, these are:
 
 * Paterson, Hugh J, III and Jeremy Nordmoe. 2013. *Challenges of implementing a tool to extract metadata from linguists: The use case of RAMP*. Poster presented at SIL-UND, Summer 2013 session in Grand Forks, North Dakota. Version 1.5 (Essentially this is the same poster as presented in Hawai'i, but laid out with differernt dimensions.)
 
-* Paterson, Hugh J, III and Jeremy Nordmoe. 2013. *Challenges of implementing a tool to extract metadata from linguists: The use case of RAMP*. Poster presented at [3rd International Conference on Language Documentation and Conservation](http://nflrc.hawaii.edu/ICLDC/2013/), at the University of Hawai’i Mānoa, Honolulu, HI. February 28 – March 3rd. Version 1.4 Online at: https://scholarspace.manoa.hawaii.edu/handle/10125/26178 or http://hdl.handle.net/10125/26178
+* Paterson, Hugh J, III and Jeremy Nordmoe. 2013. *Challenges of implementing a tool to extract metadata from linguists: The use case of RAMP*. Poster presented at [3rd International Conference on Language Documentation and Conservation](http://nflrc.hawaii.edu/ICLDC/2013/), at the University of Hawai’i Mānoa, Honolulu, HI. February 28 – March 3rd. Version 1.4 Online at: http://hdl.handle.net/10125/26178
 
 ## Formulas 
 Formulas used in the papers and posters about Lexical Database Archiving.
