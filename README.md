@@ -1,14 +1,14 @@
 # Lexical-Database-Archiving-Stats
 This gihub repository contains scripts, formulas and data used in posters, presentations and papers presented, authored or co-authored by Hugh Paterson III on the topic of *User Experience in digital interactions surrounding language archives*. The purpose of these papers and presentations is to present research and rasise questions about the activites and attitudes of people interacting with language archives.
 
-##Papers, Publications, and Presentations (and notes or additional discussion items)
+## Papers, Publications, and Presentations (and notes or additional discussion items)
 In chronological order, most recent first, these are:
 
 * Paterson, Hugh J, III. 2015. *Lexical dataset archiving: an assessment of practice*. Poster presented at the 4th International Conference on Language Documentation and Conservation, at the University of Hawai’i Mānoa, Honolulu, HI. February 26 – March 1st. Version 1.0
 
 * Paterson, Hugh J, III. 2014. *Language archiving and data ecology*. Presentation at the University of Oregon GLOSS and the Department of Linguistics Colloquium, Eugene, OR, 23 May. [Handout] (http://linguistics.uoregon.edu/wp-content/uploads/2013/09/Paterson-Handout.pdf)
 
-* Paterson, Hugh J, III and Jeremy Nordmoe. 2013. *Challenges of implementing a tool to extract metadata from linguists: The use case of RAMP*. Poster presented at SIL-UND, Summer 2013 session in Grand Forks, North Dakota. Version 1.5 (Essentially this is the same poster as presented in Hawai'i, but laid out with differernt dimensions.)
+* Paterson, Hugh J, III and Jeremy Nordmoe. 2013. *Challenges of implementing a tool to extract metadata from linguists: The use case of RAMP*. Poster presented at SIL-UND, Summer 2013 session in Grand Forks, North Dakota. Version 1.5 (Essentially this is the same poster as presented in Hawai'i, but laid out with different dimensions.)
 
 * Paterson, Hugh J, III and Jeremy Nordmoe. 2013. *Challenges of implementing a tool to extract metadata from linguists: The use case of RAMP*. Poster presented at [3rd International Conference on Language Documentation and Conservation](http://nflrc.hawaii.edu/ICLDC/2013/), at the University of Hawai’i Mānoa, Honolulu, HI. February 28 – March 3rd. Version 1.4 Online at: http://hdl.handle.net/10125/26178
 
@@ -37,7 +37,7 @@ There are several sets of data outlined as follows:
 * **ISO 639-3 data** - This data is openly avaible from the [ISO 639-3 Registrar](http://www2.sil.org/iso639-3/default.asp), but is replicated in this repo for consistency across papers and presentations. The orginal documents are presented in a folder titled: [*iso-639-3_Code_Tables_20140320*](https://github.com/HughP/Lexical-Database-Archiving-Stats/tree/master/2015-Hawaii/data/iso-639-3_Code_Tables_20140320). Additionally, a CSV file titled:[*iso-639-3_20140320.csv*](https://github.com/HughP/Lexical-Database-Archiving-Stats/blob/master/2015-Hawaii/data/iso-639-3_20140320.csv) is in the data folder and is an export of the table used to collate other data.
 * **SIL.org data for GIS locations of languages**. This data was taken from SIL.org and was merged against ISO 639-3 tables. This data appears in two files. A .txt file with the raw data grabed from SIL.org on 20. February 2015. and [a .csv file, `SIL-org GIS Data.csv`](2015-Hawaii/data/SIL-org%20GIS%20Data.csv) with the data as originally grabbed in 2014.
 
-###Leave a comment in the issue tracker for more information.
+### Leave a comment in the issue tracker for more information.
 [//]: # (Need to add the links to my YouTube presentations and to my Google form)
 
 Contents of this repo, when not covereed under other licenses are licensed Creative Commons 4.0 with the By, NC, and SA clauses  CC-BY-NC-SA. Some materials may be licensed in other ways as directly indicated.
